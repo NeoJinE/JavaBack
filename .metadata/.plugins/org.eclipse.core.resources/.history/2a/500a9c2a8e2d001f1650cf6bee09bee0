@@ -1,0 +1,13 @@
+package test;
+
+public class Testjava {
+
+	public static void main(String[] args) {
+		// 테스트입니다 출력하는 코드를 작성.
+		//System.out.println:java 언어의 표준 출력장치로 출력 명령어
+		//화면에 () 내용이 출력된다 => eclipse에서는 console탭에 결과출력
+		System.out.println("test입니다.");
+		
+	}
+
+}
