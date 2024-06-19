@@ -1,0 +1,13 @@
+package ch02;
+
+public class ch02_03_Varialbe2 {
+	public static void main(String[] args) {
+		//두 변수의 값을 교환하는 프로그램
+		//num변수에 num2의 값을, num2에 num변수의 값을 저장.
+		int num = 10;
+		int num2 = 20;
+		
+		//교환전 값을 출력.
+		System.out.println("num: " + num +"num2: " + num2);
+	}
+}

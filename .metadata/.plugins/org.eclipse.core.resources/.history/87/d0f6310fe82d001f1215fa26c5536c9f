@@ -1,0 +1,14 @@
+package ch02;
+
+public class Ch02_06_Scope {
+	//메서드 추가
+	public void showName() {
+		
+	}
+	public static void main(String[] args) {
+		String name = "홍길동";
+		System.out.println(name);
+
+	}
+
+}

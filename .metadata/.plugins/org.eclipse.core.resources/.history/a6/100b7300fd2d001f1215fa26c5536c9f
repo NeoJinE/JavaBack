@@ -1,0 +1,15 @@
+package ch02;
+
+public class Ch02_08_DataType02 {
+
+	public static void main(String[] args) {
+		//정수형 데이터 타입의 기본 타입: int(4byte)
+		//정수형은 (byte, short, int, long)
+		byte byteVal = 10; // 1byte 정수
+		short shortVal = 1000; //2byte 정수
+		int intVal = 2100000000; //4byte 정수.
+		long longVal = 100010001000100 ;//
+
+	}
+
+}

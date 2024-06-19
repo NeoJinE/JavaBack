@@ -1,0 +1,13 @@
+package ch02;
+
+public class Ch02_09_DataType03 {
+
+	public static void main(String[] args) {
+		//실수형 변수의 저장은 부동소수점 방식을 사용: 부호 + 가수부 + 지수부
+		//실수형 변수 선언 및 초기화.
+		double doubleVal = 0.1234567890123456789; //8byte 자바 실수의 기본타입.  
+		float floatVal = 0.1234567890123456789f;
+
+	}
+
+}

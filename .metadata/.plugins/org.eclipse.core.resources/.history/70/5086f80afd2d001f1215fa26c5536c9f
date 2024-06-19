@@ -1,0 +1,22 @@
+package ch02;
+
+public class Ch02_08_DataType02 {
+
+	public static void main(String[] args) {
+		//정수형 데이터 타입의 기본 타입: int(4byte)
+		//정수형은 (byte, short, int, long)
+		byte byteVal = 10; // 1byte 정수
+		short shortVal = 1000; //2byte 정수
+		int intVal = 2100000000; //4byte 정수.
+		//long longVal = 100010001000100 ; //100010001000100 int형 리터럴 => int로는 표현이 불가능.
+		//The literal 100010001000100 of type int is out of range 
+		long longVal = 100010001000100l; //long형 변수에 저장하므로, long(L,l)리터럴로 변경 => 8byte 정수에 해당.
+		
+		System.out.println("byte: "+ byteVal);
+		System.out.println("short: "+ shortVal);
+		System.out.println("int: "+ intVal);
+		System.out.println("long: "+ longVal);
+		
+	}
+
+}
