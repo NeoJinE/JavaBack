@@ -1,0 +1,22 @@
+package ch04;
+import java.util.Scanner;
+public class ch04_11_SwitchEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int month;
+		String season;
+		
+		Scanner sc = new Scanner(System.in);		
+		
+		System.out.print("현재 월 입력 : ");
+		month = sc.nextInt();
+		
+		
+		
+		System.out.println("현재 계절 : " + season);
+				
+		sc.close();
+	}
+
+}

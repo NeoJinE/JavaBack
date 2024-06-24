@@ -1,0 +1,13 @@
+package Ch3;
+
+public class Ch03_12_bitOP {
+	public static void main(String[] args) {
+		// bit: 논리 연산자
+		// &: boolean 타입에 대한 연산인 경우 일반 논린 연산자와 동일하게 적용
+		System.out.println(true & true);
+		System.out.println(true | true);
+		System.out.println(true ^ true);
+		//System.out.println(~true);
+
+	}
+}

@@ -2,7 +2,7 @@ package ch01_01;
 
 public class Hello {
 	public static void main(String[] args) {
-		//''ëŠ” Javaì—ì„œëŠ” ë¬¸ìì—´ í‘œí˜„ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤. => ë¬¸ìì—´ì€ ""ì„ ì‚¬ìš©í•´ì•¼ í•œë‹¤.
-		System.out.println("Hello world!"); 
+		//''´Â Java¿¡¼­´Â ¹®ÀÚ¿­ Ç¥ÇöÀÌ ºÒ°¡´ÉÇÏ´Ù. => ¹®ÀÚ¿­Àº ""À» »ç¿ëÇØ¾ß ÇÑ´Ù.
+	System.out.println("hello java");
 	}
 }

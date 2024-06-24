@@ -1,0 +1,12 @@
+package ch04;
+
+public class ch04_22_ForEx4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.printf("%d ~ %d의 합 : %d", start, end, sum);		
+
+	}
+
+}

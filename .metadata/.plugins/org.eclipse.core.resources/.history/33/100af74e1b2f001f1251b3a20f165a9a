@@ -1,0 +1,27 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_06_NestedIfEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		//변수선언
+		int input;
+		String NB = "노트북";
+		int NBprice = 1200000;
+		String Cam = "카메라";
+		int Camprice = 400000;
+		
+		System.out.println("상품번호 입력");
+		input = sc.nextInt();
+		System.out.println((input == 1) ? NB : (input == 2) ? Cam : "잘못 입력하였습니다. 종료합니다.");
+		
+		
+		
+		
+		
+	}
+
+}

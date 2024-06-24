@@ -1,0 +1,26 @@
+package Ch4;
+
+public class Ch04_25_For3 {
+	public static void main(String[] args) {
+	//초기식, 증감식이 2개인 경우
+	// , 로 구분
+	 for(int i=1,j=10; i<=10; i++, j--) {
+	 System.out.println("(%d, %d)\n",i,j);
+	}
+	System.out.println("============================================");
+	
+	
+	
+	//초기식, 조건식(독립적인 조건식 2개를 사용할 수는 없다), 증감식을 2개씩 사용해보자
+	for(int i=1, j=10; i<=10 && j>=5; i++, j--) {
+		System.out.printf("(%d, %d)\n",i,j);
+	}
+	
+	
+	
+	
+	
+	
+	
+	}
+}

@@ -1,0 +1,37 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_24_ForEx6 {
+	public static void main(String[] args) {
+		//입력한 학생 수 만큼 점수를 입력 받아 평균을 구하여 출력하는 프로그램 작성
+		Scanner sc = new Scanner(System.in);
+		//1.변수선언
+		int StuNum;
+	    
+		System.out.println("학생 수 입력");
+		StuNum = sc.nextInt();
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,19 @@
+package ch04;
+
+public class ch04_23_ForEx5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		System.out.printf("양수 개수 : %d\n", pos);
+		System.out.printf("음수 개수 : %d\n", neg);
+		System.out.printf("0의 개수 : %d\n", zero);
+		
+		sc.close();		
+
+	}
+
+}

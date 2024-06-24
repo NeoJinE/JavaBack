@@ -1,0 +1,64 @@
+package Practice;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Practice1 {
+
+	    public static void main(String[] args) {
+	        //4-24.입력한 학생 수 만큼 점수를 입력 받아 평균을 구하여 출력하는 프로그램 작성
+	    	
+	    	Scanner sc = new Scanner(System.in);
+	        DecimalFormat df = new DecimalFormat("#.00");
+	        //1.변수선언.
+	        int StuNum;
+	        double Average, TotalScore=0;
+	        
+	        //2.학생수 입력받기.
+	        System.out.println("학생 수 입력: ");
+	        StuNum = sc.nextInt();
+	        //3.학생수만큼의 점수입력받기.
+	        int StuScore[] = new int [StuNum];
+	        for(int i=0; i<StuNum; i++) {
+	        	System.out.println("학생" + (i+1) + "점수 입력");
+	        	StuScore[i]=sc.nextInt();
+	        //4.총점구하기.
+	        	TotalScore += StuScore[i];
+	        }
+	        //5.평균구하기.
+	        Average = TotalScore / StuNum;
+	        //6.평균출력.
+	        System.out.println("평균: " + df.format(Average));
+	        
+//=====================================================================================================	       
+	       
+	        //출력할 라인 수를 입력받아서 * 출력 (위에서부터 1,2,3,4,5개씩 출력)
+			Scanner sc = new Scanner(System.in);
+			//1.변수입력
+			int num;
+			//2.숫자입력
+			System.out.println("숫자 입력");
+			num = sc.nextInt();
+			//3.행수입력
+			for(int i=0; i<num; i++ ) {
+			//4.열수입력
+				for(int j=0; j<=i; j++ ) {
+			//5.별출력
+					System.out.print("*");
+				}	
+				System.out.println("");
+			}  
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        sc.close();
+	    }
+	}
+

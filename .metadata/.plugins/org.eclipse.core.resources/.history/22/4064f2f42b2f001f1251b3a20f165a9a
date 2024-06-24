@@ -1,0 +1,27 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_12_SwitchEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		String regNum;
+		
+		System.out.println("주민번호 입력");
+		regNum = sc.next();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

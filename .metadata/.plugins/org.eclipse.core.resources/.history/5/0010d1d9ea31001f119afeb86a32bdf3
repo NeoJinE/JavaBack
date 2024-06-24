@@ -1,0 +1,19 @@
+package Ch4;
+
+public class Ch04_38_Break {
+	public static void main(String[] args) {
+		//break문에 의해 벗어나는 block범위
+		
+		int i =0;
+		while(true) {//무한반복문.
+			i+=3; //i값을 3씩 증가.
+			
+			if(i>30)
+				break;
+			System.out.println("while문 block 내 "+ i);
+		}
+		
+		
+		
+	}
+}

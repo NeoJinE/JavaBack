@@ -1,0 +1,31 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_10_SwitchEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int Score;
+		
+		System.out.println("점수입력(0~100)");
+		Score = sc.nextInt();
+		
+		
+		
+		
+		/*switch (key) {
+		case value:
+			
+			break;
+		
+		default:
+			break;
+		}*/
+		
+		
+	}
+
+}

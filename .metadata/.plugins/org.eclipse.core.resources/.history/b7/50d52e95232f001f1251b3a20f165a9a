@@ -1,0 +1,48 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_06_NestedIfEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		//변수선언 => 상품번호, 주문수량,상품명,가격,주문액, 할인액, 지불액
+		int input; 
+		int	prdQty;
+		String Prd;
+		int price = 0;
+		int amount;
+		int discount;
+		int payment;
+		
+		
+		
+		
+		System.out.println("상품번호 입력");
+		input = sc.nextInt();
+		if(input ==1 || input==2){
+			Prd = (input == 1) ? "노트북" : "카메라";
+			price = (input == 1) ? 1200000 : 400000;
+			
+				System.out.println("주문 수량 입력");
+				prdQty = sc.nextInt();
+				amount = prdQty * price;
+				
+			discount = (amount>=1000000) ? (amount * 0.1) : (amount>=500000) ? (amount * 0.05) : 0;  
+			
+				
+				
+				
+			
+			
+			
+		
+			
+		}else  
+		System.out.println("잘못 입력하였습니다. 종료합니다.");
+		 sc.close();
+	}
+
+}

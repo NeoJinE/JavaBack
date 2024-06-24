@@ -1,0 +1,18 @@
+package ch04;
+
+public class ch04_24_ForEx6 {
+
+	public static void main(String[] args) {
+
+		
+		System.out.print("학생 수 입력 : ");
+		count = sc.nextInt();
+		
+		
+		
+		System.out.println("평균 : " + String.format("%.2f", (sum/count)));
+
+		sc.close();
+	}
+
+}

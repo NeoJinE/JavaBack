@@ -1,0 +1,50 @@
+package Practice;
+import java.util.Random;
+import java.util.Scanner;
+public class ch04_16_RandomNumEx2 {
+
+	public static void main(String[] args) {
+		// 가위바위보 게임 switch 문 사용
+		Scanner sc = new Scanner(System.in);
+		int Com, User;
+		String Rsp = " ";
+		
+		Com = (int)(Math.random() * 3) + 1;
+		System.out.println("가위(1), 바위(2), 보(3) 중 하나 입력하세요 : ");
+		User = sc.nextInt();
+		
+		if((Com == 2 && User == 3) || 
+		   (Com == 1 && User == 2) ||
+		   (Com == 3 && User == 1))
+			Rsp = "Win";
+		else if((Com == 3 && User == 2) ||
+				(Com == 2 && User == 1) ||
+				(Com == 1 && User == 3))
+			Rsp = "Lose";
+		else
+			Rsp = "Draw";
+		
+		
+		switch (Rsp) {
+		case "Win":
+			System.out.println("당신이 이겼습니다.");
+			break;
+		case "Lose":
+			System.out.println("당신이 졌습니다.");	
+			break;
+		default:
+			System.out.println("무승부입니다.");
+			break;
+		}
+		
+		System.out.println("컴은 " + Com + "입니다.");
+		System.out.println("당신은 " + User + "입니다.");
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

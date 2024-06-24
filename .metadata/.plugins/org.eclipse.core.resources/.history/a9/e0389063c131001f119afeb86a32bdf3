@@ -1,0 +1,22 @@
+package ch04;
+import java.util.Random;
+import java.util.Scanner;
+public class ch04_16_RandomNumEx2 {
+
+	public static void main(String[] args) {
+		// 가위바위보 게임 switch 문 사용
+		
+		int user, com;
+		Scanner sc = new Scanner(System.in);
+		
+		// user 숫자 입력
+		System.out.print("가위(1), 바위(2), 보(3) 중 하나 입력하세요 : ");
+		user = sc.nextInt();
+		
+		System.out.println("당신은 " + user + "입니다.");
+		System.out.println("컴은 " + com + "입니다.");		
+		
+		sc.close();		
+	}
+
+}

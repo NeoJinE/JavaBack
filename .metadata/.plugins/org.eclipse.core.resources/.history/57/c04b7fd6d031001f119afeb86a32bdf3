@@ -1,0 +1,22 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class ch04_30_NestedForEx2 {
+
+	public static void main(String[] args) {
+		// 입력된 수에 따른 * 찍기
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

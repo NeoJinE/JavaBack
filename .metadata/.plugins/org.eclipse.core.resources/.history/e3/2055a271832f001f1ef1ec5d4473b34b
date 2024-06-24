@@ -1,0 +1,42 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_16_RandomNumEx2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int Cnum, num;
+		String Rsp = "";
+		
+		Cnum = (int)(Math.random() * 3) + 1;
+		System.out.println("가위(1), 바위(2), 보(3) 중 하나 입력하세요 : ");
+		num = sc.nextInt();
+		
+		
+		switch (Rsp) {
+		case "win":
+			if((Cnum == 2 && num == 3) || 
+			(Cnum == 1 && num == 2) ||
+			(Cnum == 3 && num == 1))
+				System.out.println("당신이 이겼습니다.");
+			break;
+		case "Lose":
+			if((Cnum == 3 && num == 2) ||
+			  (Cnum == 2 && num == 1) ||
+			  (Cnum == 1 && num == 3))
+				System.out.println("당신이 졌습니다.");
+			break;
+
+		default:
+			System.out.println("당신이 졌습니다.");
+			break;
+		}
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

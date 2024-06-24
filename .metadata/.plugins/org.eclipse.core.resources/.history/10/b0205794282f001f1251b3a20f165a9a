@@ -1,0 +1,34 @@
+package Ch4;
+
+import java.util.Scanner;
+
+public class Ch04_10_SwitchEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int Score;
+		
+		System.out.println("점수입력(0~100)");
+		Score = sc.nextInt();
+		
+		
+		
+		
+		switch (Score) {
+		case A: ;
+		case B: 90<=Score<=100;
+		case C: 90<=Score<=100;
+		case D: 90<=Score<=100;
+		case E: 90<=Score<=100;
+			break;
+		
+		default:
+			break;
+		
+		
+		
+	}
+
+}

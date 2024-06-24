@@ -20,7 +20,7 @@ public class Ch03_09_LogicalOpEx {
 		 else  
 			 System.out.println(num + "은 2 또는 3의 배수가 아닙니다."); 
 			 
-		 System.out.println("입력한 숫자: " + num);
+		 System.out.printf("입력한 숫자: %d" , num);
 		
 		 sc.close();
 	}
