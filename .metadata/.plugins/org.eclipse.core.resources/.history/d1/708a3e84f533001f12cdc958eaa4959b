@@ -1,0 +1,21 @@
+package sec11;
+
+public class SavingsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 클래스 호출
+		Savings List = new Savings();
+		
+		//2.메서드 호출
+		List.setName();
+		List.setBalance();
+		List.getBalance();
+		
+		
+		//3.출력메서드 호출
+		List.showList();
+		
+	}
+
+}

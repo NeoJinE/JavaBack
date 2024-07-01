@@ -1,0 +1,20 @@
+package Ch06_2.sec_25.Main;
+
+
+
+import Ch06_2.sec_25.Prd.Product; //패키지명만 쓰면 오류발생, 클래스명까지 발생
+import Ch06_2.sec_25.Std.*; // * 기호 이용해서 모든 클래스 라고 명시.
+							//=> Ch06_2.sec_25.Std밑 모든 클래스가 import
+public class AppMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//import해야함 
+		
+		Product p = new Product("1001", "노트북", "삼성", 5000000, 10);
+		Student s = new Student();
+		
+	}
+
+}

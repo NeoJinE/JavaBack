@@ -1,0 +1,32 @@
+package Ch06_class_sec10;
+
+import java.util.Scanner;
+
+public class Rectangle {
+
+	//1.멤버변수선언
+	private int Width;
+	private int Height;
+	
+	//2.메서드1작성(매개변수로 가로,세로길이 매개변수)
+	public void  setRectangle(Scanner sc) {
+		Width = width;
+		Height = height;
+	}
+		
+	//3.메서드2작성(넓이 return)
+	public int  getArea() {
+		return Width * Height;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

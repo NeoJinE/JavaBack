@@ -1,0 +1,12 @@
+package Ch06_class_sec16;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+		// 여러생성자 사용 예제
+		Book b1 = new Book();
+		b1.showBookInfo(); //기본 생성자 함수에서 매개변수가 2개인 생성자가 호출되었다.
+
+	}
+
+}

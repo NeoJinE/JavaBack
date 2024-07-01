@@ -1,0 +1,24 @@
+package Ch07_inheritance.sec02_1;
+
+import java.util.Scanner;
+
+public class Person {
+	Scanner sc = new Scanner(System.in);
+	//1.멤버변수선언
+	private String Name;
+	private String Ssn;
+
+	//2.생성자 선언
+	public void setPerson() {
+		System.out.println("이름: ");
+		this.Name = sc.next();
+		System.out.println("주민번호: ");
+		this.Ssn = sc.next();
+	}
+
+	//3.toString 작성
+	@Override
+	public String toString() {
+		return "이름"+Name+"주민번호"+ Ssn;
+	}
+}

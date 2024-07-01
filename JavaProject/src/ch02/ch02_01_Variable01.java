@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 
 public class ch02_01_Variable01 {
 

@@ -1,0 +1,10 @@
+package Ch07_inheritance.sec01;
+
+public class ParentChildMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package sec05;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// std클래스 선언
+		Student Info = new Student();
+		
+		//학생정보입력 메서드 호출
+		Info.inputStdInfo();
+		
+		//학생정보출력 메서드 호출
+		Info.showStdInfo();
+	}
+
+}

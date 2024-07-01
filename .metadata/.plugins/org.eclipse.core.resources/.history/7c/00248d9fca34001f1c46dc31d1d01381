@@ -1,0 +1,66 @@
+package Ch06_class_start;
+
+import java.awt.Menu;
+
+public class AppStart {
+	
+	//1.멤버변수 선언
+	private String Message;
+	private String Menu1;
+	private String Menu2;
+	private String Menu3;
+	private String Close;
+	
+	//2.생성자 초기화
+	public AppStart (String Menu1,String Menu2,String Menu3,String Close) {
+		this.Menu1=Menu1;
+		this.Menu2=Menu2;
+		this.Menu3=Menu3;
+		this.Close=Close;
+	}
+	
+	//3. 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

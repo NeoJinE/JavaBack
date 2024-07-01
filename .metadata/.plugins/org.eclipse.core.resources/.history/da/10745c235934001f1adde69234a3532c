@@ -1,0 +1,21 @@
+package Ch06_class_sec18;
+
+public class ShareMain {
+
+	public static void main(String[] args) {
+		// static 멤버 이용.
+		Share s1 = new Share();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

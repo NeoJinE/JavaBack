@@ -1,0 +1,10 @@
+package Ch06_class_sec09_01;
+
+public class Product02Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

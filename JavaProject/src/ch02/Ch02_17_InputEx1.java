@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 import java.util.Scanner;
 public class Ch02_17_InputEx1 {
 	public static void main(String[] args) {

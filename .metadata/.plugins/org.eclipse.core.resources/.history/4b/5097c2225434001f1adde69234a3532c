@@ -1,0 +1,40 @@
+package Ch06_class_sec17;
+
+public class Carculator {
+	//static 필드 선언 및 초기화
+	static double pi = 3.141592;
+	
+	//인스턴스 멤버 필드
+	int a ;
+	
+	//static 메서드
+	static int plus(int x, int y) {
+		return x + y;
+	}
+	
+	static int minus(int x, int y) {
+		return x - y;
+	}
+	
+	static void show() { //static메서드에서는 static필드만 사용가능.
+		//a = 10;	//a는 일반 멤버필드이기때문에 사용시 에러(a는 사용불가)
+		//sum() 		//메서드 static메서드만 호출가능.
+	}
+	//인스턴스 메서드
+	public void sum() {
+		System.out.println(plus(10, 20));
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

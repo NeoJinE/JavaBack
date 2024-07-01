@@ -1,0 +1,26 @@
+package Ch6_class_sec13;
+
+public class Book {
+	
+	//1.멤버변수선언
+	int bookNo;
+	int bookPrice;
+	String bookName;
+	String bookAuthor;
+
+	//2.(메서드작성 멤버변수에 값 저장)
+	public Book(int No, int Price, String Name, String Author) {
+		this.bookNo = No;
+		this.bookPrice =Price;
+		this.bookName = Name;
+		this.bookAuthor =Author;
+	}
+	
+	//3.(메서드작성2 멤버변수의 값 출력)
+	public void showBookInfo() {
+		System.out.println("도서번호: " + bookNo);
+        System.out.println("도서명: " + bookName);
+        System.out.println("저자: " + bookAuthor);
+        System.out.println("가격: " + bookPrice);
+	}
+}

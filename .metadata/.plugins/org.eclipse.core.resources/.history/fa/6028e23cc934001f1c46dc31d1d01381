@@ -1,0 +1,10 @@
+package Ch06_class_start;
+
+public class AppStart {
+	
+	//1.멤버변수 선언
+	private String Message;
+	private String Menu1;
+	private String Menu2;
+	private String Menu3;
+}

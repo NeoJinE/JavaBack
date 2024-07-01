@@ -1,0 +1,31 @@
+package Practice;
+
+	public class Book {	
+
+	//1.멤버변수 선언
+		private String Name, Author;
+		private int No, Price;
+		
+	//2.메서드 작성
+		public Book(String Name,String Author,int No,int Price) {
+			this.Name = Name;
+			this.Author = Author;
+			this.No = No;
+			this.Price = Price;
+		}
+		
+	//3.출력메서드 작성
+		public void showBook() {
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+}

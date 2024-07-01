@@ -1,0 +1,27 @@
+package Ch06_class_sec18;
+
+public class ShareMain {
+
+	public static void main(String[] args) {
+		// static 멤버 이용.
+		
+		//기본생성자 자동 생성되면서 호출. => 생성자 코드는 보이지 않는다.
+		Share s1 = new Share();
+		Share s2 = new Share();
+		
+		//share의 set 인스턴스메서드는 인스턴스멤버 a 값도 증가, static멤버 staticA 값도 증가.
+		s1.set(5);
+		s2.set(100);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

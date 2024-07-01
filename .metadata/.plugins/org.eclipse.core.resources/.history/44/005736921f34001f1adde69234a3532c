@@ -1,0 +1,23 @@
+package Ch06_class_sec06;
+
+public class ProductMain {
+	public static void main(String[] args) {
+		//Product 클래스 메서드 사용해서 상품 관리 프로그램.
+		
+		//1.클래스 선언
+		Product list = new Product();
+		
+		//2.상품정보입력 메서드 출력
+		list.inputProduct();
+		
+		//3.학생정보출력 메서드 호출
+		list.showProduct();
+		
+		//4.매출액 메서드 호출
+		list.showSaleAmount();
+		
+		//5.재고액 메서드 호출
+		list.showStockAmount();
+		
+	}
+}

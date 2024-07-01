@@ -1,0 +1,14 @@
+package Ch6_class_sec13;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+		//1.클래스 선언 & 매개변수값 입력
+		Book info = new Book(10010,50000,"자바","홍길동");
+		
+		//2.메서드 호출(멤버필드값 출력하는 메서드 호출)
+		info.showBookInfo();
+		
+	}
+
+}

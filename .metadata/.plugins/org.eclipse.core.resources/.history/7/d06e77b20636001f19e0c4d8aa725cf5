@@ -1,0 +1,43 @@
+package Ch6_class_sec26.game;
+
+import java.util.Random;
+
+public class GaBaBo {
+	public void play() {
+		//가위바위보 게임
+		
+		//1. 변수선언
+		int User,Com;
+		
+		//2. 컴퓨터(난수생성) & 사용자 숫자 입력받기.
+		Random r = new Random();
+		Com = r.Random(3)+1;
+		  
+		  
+		  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

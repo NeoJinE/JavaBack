@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 
 public class Ch02_06_Scope {
 	//클래스 내부 변수 선언.

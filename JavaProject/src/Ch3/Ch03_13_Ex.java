@@ -1,6 +1,6 @@
 package Ch3;
 
-import ch02.ch02_01_Variable01;
+import Ch02.ch02_01_Variable01;
 
 public class Ch03_13_Ex {
 	public static void main(String[] args) {

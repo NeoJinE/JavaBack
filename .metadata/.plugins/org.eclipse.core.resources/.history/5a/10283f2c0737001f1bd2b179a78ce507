@@ -1,0 +1,11 @@
+package Ch07_inheritance.sec8;
+
+public class PartTime extends Worker {
+	//1.멤버변수 선언.
+	int Hours,UnitPrice;
+	
+	//2.생성자 초기화
+	public void setPartTime() {
+		
+	}
+}

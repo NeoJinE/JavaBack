@@ -1,7 +1,0 @@
-package Ch4;
-
-public class Ch04_11_SwitchEx2 {
-	public static void main(String[] args) {
-		
-	}
-}

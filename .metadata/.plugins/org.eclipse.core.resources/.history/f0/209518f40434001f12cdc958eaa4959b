@@ -1,0 +1,27 @@
+package sec15;
+
+public class Member {
+
+	//1.멤버변수선언
+	String Name;
+	String Gender;
+	int Age;
+	int Birth;
+	
+	//2.매개변수 생성자 초기화
+	public Member(String Name,String Gender,int Age,int Birth) {
+		this.Name = Name;
+		this.Gender = Gender;
+		this.Age = Age;
+		this.Birth = Birth;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

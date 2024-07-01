@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Ch07_inheritance.sec8&apos; to &apos;Ch07_inheritance.sec08&apos;&#x0D;&#x0A;- Original project: &apos;JavaProject&apos;&#x0D;&#x0A;- Original element: &apos;JavaProject/src/Ch07_inheritance.sec8&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaProject/src/Ch07_inheritance.sec08&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;Ch07_inheritance.sec8&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Ch07_inheritance.sec8" name="Ch07_inheritance.sec08" qualified="false" references="true" stamp="1719792029428" textual="false" version="1.0"/>
+</session>

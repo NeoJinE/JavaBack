@@ -1,0 +1,20 @@
+package Ch07_inheritance.sec02;
+
+public class Employ { //직원정보를 저장하고 출력하는 클래스.
+	//1.모든 직원에 해당되는 일반정보를 담을 멤버변수 선언
+	//private으로 생성
+	private String empNo;
+	private String empName;
+	private String empPart;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

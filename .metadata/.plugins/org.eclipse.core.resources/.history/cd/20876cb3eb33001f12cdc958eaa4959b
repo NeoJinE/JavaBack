@@ -1,0 +1,49 @@
+package sec11;
+
+import java.util.Scanner;
+
+public class Savings {
+	//1.멤버변수선언
+	String Name;
+	int Deposit,Interest,Balance;
+	
+	//2.멤버메서드
+	public void setName() {
+		this.Name = "홍길동";
+	}
+
+	public void setBalance() {
+		this.Balance = 10000;
+	}
+	
+	public String getName() {
+		return this.Name;
+	}
+
+	public void inputDeposit() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("예금액 입력: ");
+		Deposit=sc.nextInt();
+		this.Balance += this.Deposit;
+		sc.close();
+	}
+	
+	public int getInterest() {
+		this.Interest = (int)(this.Balance * 0.1);
+		this.Balance += this.Interest;
+		return this.Interest;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

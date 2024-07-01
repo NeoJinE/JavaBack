@@ -1,0 +1,10 @@
+package Ch07_inheritance.sec02;
+
+public class EmpManagerMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

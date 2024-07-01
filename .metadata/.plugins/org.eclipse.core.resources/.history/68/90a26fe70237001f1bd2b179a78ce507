@@ -1,0 +1,44 @@
+package Ch07_inheritance.sec07;
+
+public class Car {
+		//1.멤버변수 선언
+	int carNo,carYear;
+	String carName,carMaker;
+	
+		//2.생성자 초기화
+	public Car (int carNo, int carYear, String carName, String carMaker) {
+		this.carNo=carNo;
+		this.carYear=carYear;
+		this.carName=carName;
+		this.carMaker=carMaker;
+	}
+
+	
+		//3.toString 출력문
+		@Override
+		public String toString() {
+			return "차량번호: "+ carNo +
+				   "\n차종: " + carName +
+				   "\n제조사: " + carMaker +
+				   "\n연식: " + carYear;
+
+		}
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

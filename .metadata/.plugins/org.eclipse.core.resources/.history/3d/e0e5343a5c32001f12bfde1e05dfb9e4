@@ -1,0 +1,23 @@
+package Ch05_array;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Ch05_18_Ex1 {
+
+	public static void main(String[] args) {
+	//랜덤 숫자 10개 생성해서 배열에 저장하고, 각 숫자의 반복 횟수 출력
+		Scanner sc = new Scanner(System.in);
+		Random r = new Random();
+		//1.변수&배열선언
+		int [] Ran = new int[10];
+		
+		//2.랜덤숫자10개생성(0~9범위) & 배열에 저장.
+		for(int i=0; i<10; i++) {
+			Ran[i]= r.nextInt(10);
+		}
+		//3.각 숫자의 반복횟수 출력
+		
+	}
+
+}

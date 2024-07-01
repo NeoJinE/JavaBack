@@ -1,0 +1,12 @@
+package Ch06_class_sec17;
+
+public class CarculatorMain {
+
+	public static void main(String[] args) {
+		// 클래스 내에서 static 멤버 사용
+		//클래스 객체 인스턴스 생성
+		Carculator calc = new Calculator();
+		System.out.println(calc.plus(20, 30));
+	}
+
+}

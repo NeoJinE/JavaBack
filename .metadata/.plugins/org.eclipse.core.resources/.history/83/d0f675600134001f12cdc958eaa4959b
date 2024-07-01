@@ -1,0 +1,12 @@
+package Ch6_class_sec14;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+		//1.클래스 선언
+		Book info = new Book();
+		
+
+	}
+
+}

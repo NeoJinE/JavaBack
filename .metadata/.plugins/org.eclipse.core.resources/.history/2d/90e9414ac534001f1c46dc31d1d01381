@@ -1,0 +1,22 @@
+package Ch06_class_sec23;
+
+public class Book {
+
+	//1.멤버변수 선언	
+	String bookName;
+	String bookNo;	
+	String bookAuthor;
+	int bookPrice; 
+	
+	//2.생성자 초기화
+	public Book(String bookName,String bookNo,String bookAuthor,int bookPrice) {
+	this.bookName = bookName;
+	this.bookNo = bookNo;
+	this.bookAuthor = bookAuthor;
+	this.bookPrice = bookPrice;
+	}
+	
+	
+	
+	
+}

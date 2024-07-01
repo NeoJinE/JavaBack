@@ -1,0 +1,21 @@
+package Practice;
+
+	public class Book {	
+
+	//1.멤버변수 선언
+		private String Name, Author;
+		private int No, Price;
+		
+	//2.메서드 작성
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+}

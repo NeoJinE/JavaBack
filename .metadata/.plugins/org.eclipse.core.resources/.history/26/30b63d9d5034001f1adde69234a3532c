@@ -1,0 +1,45 @@
+package Ch06_class_sec16;
+
+public class Book {
+	
+	//1.멤버변수
+	String bookNo;	//객체형이므로 기본값이 null로 자동 초기화.
+	String bookName;
+	String bookAuthor;
+	int bookPrice; //정수형이므로, 기본값 0 이 자동 저장 초기화
+	
+	//2.생성자영역 => 생성자 오버라이딩 이용해서 여러개의 생성자 만듬.
+	
+	//2-1매개면수가 없는 디폴트 생성자.
+	public Book() {
+	//필드에 대해서 기본값(없음,없음,없음,0)으로 초기화하기로 결정.
+	//필드에 값을 저장하는 생성자가 만들어져 있으므로, 호출해서 결정된 기본값으로 초기화. => this():다른 생성자를 호출
+		this("없음", "없음"); // 현재 생성자에서 매개변수가 두개 있는 다른 생성자 호출.
+		System.out.println("디폴트 생성자 호출됨");
+	}
+	
+	//2-2.두개의 매개변수가 있는 생성자
+	public Book(String bookNo, String bookName ) {
+		this.bookNo = bookNo;
+		this.bookName = bookName;
+		
+		
+	}
+	
+	//2-3매개변수가 4개 있는 생성자=> 모든 필드값을 전달받아 초기화.
+	public Book(String No, String Authorint , String Name, int Price) {
+		this.bookNo = No; 
+		this.bookName = Name;
+		this.bookAuthor =Author;
+		this.bookPrice =Price;
+	}
+	
+	
+	//3.멤버메서드
+		public void showBookInfo() {
+			System.out.println("도서번호: " + bookNo);
+	        System.out.println("도서명: " + bookName);
+	        System.out.println("저자: " + bookAuthor);
+	        System.out.println("가격: " + bookPrice);
+		}	
+}

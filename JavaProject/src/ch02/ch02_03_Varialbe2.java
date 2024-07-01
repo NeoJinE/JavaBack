@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 
 public class ch02_03_Varialbe2 {
 	public static void main(String[] args) {

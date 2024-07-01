@@ -1,0 +1,10 @@
+package Ch05_array;
+
+public class Ch05_13_ArrayCopy5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

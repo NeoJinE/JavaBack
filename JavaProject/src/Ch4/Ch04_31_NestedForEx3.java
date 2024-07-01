@@ -19,7 +19,7 @@ public class Ch04_31_NestedForEx3 {
 			Dan = i;	
 		
 		//4.출력.
-		System.out.print(Dan + "x" + Num + "=" + Dan * Num +"  ");		
+		System.out.print(Dan + "x" + Num + "=" + Dan * Num +"\t");		
 			}
 		System.out.println();
 		}

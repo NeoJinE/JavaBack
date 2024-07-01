@@ -1,0 +1,24 @@
+package Ch05_array;
+
+public class Ch05_20_Ex3 {
+
+	public static void main(String[] args) {
+		//영어 단어의 뜻을 알아 맞히는 프로그램
+		//1.변수&배열선언
+		String[][]Voc = {//3행2열
+				{"chair","의자"},
+				{"computer","컴퓨터"},
+				{"integer","정수"}
+		};
+		//2.단어장 배열 출력
+		 for(int i=0; i<Voc.length; i++) {
+			 for(int j=0; j<Voc[i].length; j++) {
+				 System.out.print(Voc[i][j]+"   \t");
+			 }
+			 System.out.println();
+		 }
+		//3.단어문제작성
+		//4.출력문.
+	}
+
+}

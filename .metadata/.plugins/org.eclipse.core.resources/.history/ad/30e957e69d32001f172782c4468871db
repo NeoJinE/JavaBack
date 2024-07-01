@@ -1,0 +1,11 @@
+package Ch05_array;
+
+public class Ch05_14_ArrayCopy6 {
+
+	public static void main(String[] args) {
+		//System.arraycopy(원본배열, 시작idx, 대상배열, 대상배열의 시작idx, 복사갯수)메서드 사용
+		int[]ar= {1,2,3,4,5};
+		int[]br= System.arraycopy(ar, 0, br, 0, 5);
+	}
+
+}

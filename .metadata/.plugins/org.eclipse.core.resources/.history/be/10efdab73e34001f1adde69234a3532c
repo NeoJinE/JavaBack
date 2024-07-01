@@ -1,0 +1,28 @@
+package Ch06_class_sec12;
+
+public class ConstructorMain {
+
+	public static void main(String[] args) {
+		// Constructor 클래스 객체 인스턴스 생성
+		//인스턴스 생성 시 생성자 메서드는 호출(보통 명시적 코드로 호출)
+		//클래스 생성자 메서드에 의해서, 멤버필드에 값이 저장된다.(코드를 생성해놨음)
+		
+		//new 연산자를 통해, 생성자메서드를 호출.
+		Constructor c = new Constructor(); //필드 x의 초기값을 클래스에서 결정.
+		//new 연상 실행과 함께 생성자메서드 호출
+		Constructor c1 = new Constructor();
+		
+		
+		
+		
+		
+		//일반 메서드 호출: showX 호출 => x멤버필드 값을 출력
+		c.showX(); 
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package Ch07_inheritance.sec05;
+
+public class Student extends Person {
+
+	//1.멤버변수 선언
+	int stdNo;
+	
+	//2.
+	public void setstdNo() {
+		setPerson();
+		stdNo = 2024001;
+	}
+
+	//3.
+	@Override
+	public String toString() {
+		return "학번: " + stdNo;
+	}
+	
+	
+	
+}

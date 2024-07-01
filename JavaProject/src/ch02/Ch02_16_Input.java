@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 //import 구문은 클래스가 시작되기 전에 코드를 작성해야 한다.
 //import를 통해서 사용한다고 한 후, 사용.) => 여기서 선언한다.
 import java.util.Scanner;

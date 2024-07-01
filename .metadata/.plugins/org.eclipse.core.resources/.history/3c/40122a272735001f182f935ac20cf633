@@ -1,0 +1,21 @@
+package Ch07_inheritance.sec05;
+
+import javax.lang.model.element.NestingKind;
+
+public class Person {
+	//1.멤버변수선언
+	String Name;
+	String Ssn;
+	
+	//2.
+	public void setPerson() {
+		Name = "홍길동";
+		Ssn = "123456-1234567";
+	}
+
+	//3.
+	@Override
+	public String toString() {
+		return "인적사항: "+ Name + Ssn;
+	}
+}

@@ -1,0 +1,15 @@
+package Ch06_2.sec_26.start;
+
+import Ch06_2.sec_26.game.*;
+import Ch06_2.sec_26.info.*;
+
+
+
+public class AppStart {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

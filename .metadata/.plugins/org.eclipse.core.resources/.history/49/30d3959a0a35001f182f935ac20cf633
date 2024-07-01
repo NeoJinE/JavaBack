@@ -1,0 +1,13 @@
+package Ch06_2.sec_25.Main;
+
+import Ch06_2.sec_25.Prd.*;
+import Ch06_2.sec_25.Std.*;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

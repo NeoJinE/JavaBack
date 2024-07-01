@@ -1,0 +1,26 @@
+package Ch06_class_sec07;
+
+public class TvMain {
+
+	public static void main(String[] args) {
+		// Tv 클래스 인스턴스 생성 및 사용
+		//생성 및 사용할 떄 메모리에서 어떻게 움직이는지 설명
+		
+		//1.인스턴스 참조변수 선언 => stack영역에 t 참조변수 만들고, 값은 x => t 참조변수를 사용 불가.
+		Tv t ; 
+
+		//2.인스턴스 영역 할당.
+		t = new Tv();
+
+		//3.멤버변수에 실제 값 저장.
+		t.channel = 7; 
+		
+		//4. 멤버 메서드를 호출.
+		t.channelDown(); 
+		
+		
+		
+		
+	}
+
+}

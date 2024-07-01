@@ -1,0 +1,21 @@
+package sec06;
+
+import java.util.Scanner;
+
+public class Product {
+	//1.멤버필드:private멤버변수선언
+	private String prdName;
+	private int prdPrice;
+	private int prdStock;
+	private int prdSold;
+	
+	public void inputProduct(){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("****상품정보입력****");
+		
+		
+		
+		sc.close();
+	}
+	
+}

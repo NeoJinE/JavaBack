@@ -1,0 +1,70 @@
+package Ch06_2.sec_23;
+
+public class Book {
+
+	//1.멤버변수 선언	
+	private String bookName;
+	private String bookNo;	
+	private String bookAuthor;
+	private int bookPrice; 
+	
+	//2.생성자 초기화
+	public Book(String bookName,String bookNo,String bookAuthor,int bookPrice) {
+	this.bookName = bookName;
+	this.bookNo = bookNo;
+	this.bookAuthor = bookAuthor;
+	this.bookPrice = bookPrice;
+	}
+	
+	//3.Setter getter 메서드 작성
+	
+	public void setName(String bookName) {
+		this.bookName = bookName;
+	}
+	
+	public String getName() {
+		return bookName;
+	}
+	
+	public void setNo(String bookNo) {
+		this.bookNo = bookNo;
+	}
+	
+	public String getNo() {
+		return bookNo;
+	}
+	
+	public void setAuthor(String bookAuthor) {
+		this.bookAuthor = bookAuthor;
+	}
+	
+	public String getAuthor() {
+		return bookAuthor;
+	}
+	
+	
+	public void setPrice(int bookPrice) {
+		this.bookPrice = bookPrice;
+	}
+	
+	public int getPrice() {
+		return bookPrice;
+	}
+	
+	//3.toString 메서드로 출력
+	@Override
+	public String toString() {
+		return "제목: " + bookName +"\n"
+			 + "번호: " + bookNo +"\n"
+			 + "저자: " + bookAuthor +"\n"
+			 + "가격: " + bookPrice;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,41 @@
+package Ch06_class_sec16;
+
+public class Book {
+	
+	//1.멤버변수
+	String bookNo;
+	int bookPrice;
+	String bookName;
+	String bookAuthor;
+	
+	//2.생성자영역 => 생성자 오버라이딩 이용해서 여러개의 생성자 만듬.
+	//2-1매개면수가 없는 디폴트 생성자.
+	public Book() {
+		
+	}
+	
+	//2-2.두개의 매개변수가 있는 생성자
+	public Book(String bookNo, String bookName ) {
+		this.bookNo = bookNo;
+		this.bookName = bookName;
+		
+		
+	}
+	
+	
+	//2-3매개변수가 4개 있는 생성자=> 모든 필드값을 전달받아 초기화.
+	public Book(String No, int Price, String Name, String Author) {
+		this.bookNo = No; 
+		this.bookPrice =Price;
+		this.bookName = Name;
+		this.bookAuthor =Author;
+	}
+	
+	//3.멤버메서드
+		public void showBookInfo() {
+			System.out.println("도서번호: " + bookNo);
+	        System.out.println("도서명: " + bookName);
+	        System.out.println("저자: " + bookAuthor);
+	        System.out.println("가격: " + bookPrice);
+		}	
+}

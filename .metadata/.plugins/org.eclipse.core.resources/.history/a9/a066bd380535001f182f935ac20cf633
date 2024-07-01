@@ -1,0 +1,66 @@
+package Ch6_class_sec26.start;
+
+import java.util.Scanner;
+
+import Ch6_class_sec26.info.AppInfo;
+
+  public class AppStart {
+		
+	public static void main(String[] args) {
+		
+		//1.변수선언
+		int Pick;
+		//2.인사말 출력
+		System.out.println("*********************************************\n"
+								+"★★게임에 오신 것을 환영합니다^^\n"
+						+"*********************************************");
+		System.out.println("\t메뉴\n"+
+				"--------------------------------\n"+
+				"1.애플리케이션 정보\n"+
+				   "2.가위바위보 게임\n"+
+				   "3.숫자 알아맞히기 게임\n"+
+				   "4.종료\n"+
+				   "--------------------------------");
+		//3.메뉴 선택 입력 받아서 해당 클래스 객체 생성 / 메소드 호출
+		Scanner sc = new Scanner(System.in);
+		
+		
+		do {
+			System.out.println("\t메뉴\n"+
+					"--------------------------------\n"+
+					"1.애플리케이션 정보\n"+
+					   "2.가위바위보 게임\n"+
+					   "3.숫자 알아맞히기 게임\n"+
+					   "4.종료\n"+
+					   "--------------------------------");
+		System.out.println("메뉴번호입력: ");
+		Pick = sc.nextInt();
+			
+			
+		switch(Pick) {
+		case 1 :
+			AppInfo info = new AppInfo();
+			info.showAppInfo();
+			break;
+		case 2 :
+			break;
+		case 3 :
+			break;
+		case 4 :
+			System.out.println
+			("*********************************\n"+
+			"\t종료합니다!\n"+
+			"*********************************");			   
+			break;
+		default:
+		}
+		
+		
+		
+		
+		
+		
+		}while(Pick!=4);
+	sc.close();
+	}
+}

@@ -1,0 +1,19 @@
+package Ch06_2.sec_17;
+
+public class CarculatorMain {
+
+	public static void main(String[] args) {
+		// 클래스 내에서 static 멤버 사용
+		Calculator.plus(100, 200);
+		//클래스 객체 인스턴스 생성
+		Calculator calc = new Calculator();
+		System.out.println(calc.plus(20, 30));
+		
+		//static 멤버 사용 방법 => 클래스명.필드명 or 클래스명.메서드명
+		//컴파일러 해석에 의해서 클래스 이름으로 공간을 만들고, 필드랑 메서드를 저장해놓는다.
+		System.out.println(Calculator.plus(20,30));//static 메서드 호출: 클래스명.메서드명
+		System.out.println(10*10*Calculator.pi);	// static 필드 사용: 클래스명.필드명
+		System.out.println(Calculator.minus(100,20));//static 메서드 호출: 클래스명.메서드명
+	
+	}
+}

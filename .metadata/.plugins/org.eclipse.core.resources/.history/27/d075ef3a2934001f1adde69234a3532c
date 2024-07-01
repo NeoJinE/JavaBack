@@ -1,0 +1,24 @@
+package Ch06_class_sec10;
+
+import java.util.Scanner;
+
+public class RectangleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1.클래스 호출
+		Scanner sc = new Scanner(System.in);
+		Rectangle rec = new Rectangle();
+		
+		//2.가로 & 세로길이 입력받기
+		System.out.println("가로길이: ");
+		int width = sc.nextInt();
+		System.out.println("세로길이: ");
+		int height = sc.nextInt();
+		rec.setRectangle(width, height);
+		
+		//3. 넓이 출력
+		System.out.println("사각형의 넓이: " + rec.getArea());
+	}
+
+}

@@ -1,0 +1,40 @@
+package Ch6_class_sec26.start;
+
+import java.util.Scanner;
+
+	public class AppStart {
+		
+		public static void main(String[] args) {
+		
+		//1.변수선언
+		int Pick;
+		//2.인사말 출력
+		System.out.println("*********************************************\n"
+								+"★★게임에 오신 것을 환영합니다^^\n"
+						+"*********************************************");
+		//3.메뉴 선택 입력 받아서 해당 클래스 객체 생성 / 메소드 호출
+		Scanner sc = new Scanner(System.in);
+		Pick = sc.nextInt();
+		
+		do {
+			
+		switch(Pick) {
+		case 1 :
+			break;
+		case 2 :
+			break;
+		case 3 :
+			break;
+		case 4 :
+			break;
+		default:
+		}
+		
+		
+		
+		
+		
+		
+		}while();
+	}
+}

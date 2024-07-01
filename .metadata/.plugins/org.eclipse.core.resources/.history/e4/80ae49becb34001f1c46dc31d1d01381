@@ -1,0 +1,19 @@
+package Ch06_class_start;
+
+ import Ch6_class_sec26.Game;
+
+
+
+
+public class AppStartMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		
+		
+	}
+}

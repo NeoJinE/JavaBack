@@ -1,0 +1,10 @@
+package Ch06_class_sec12;
+
+public class ConstructorMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

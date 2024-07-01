@@ -1,0 +1,27 @@
+package Ch06_2.sec20;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		//객체 생성 및 초기화
+		//Person객체 생성 및 초기화
+		
+		//Person 클래스는 매개변수가 있는 생성자 정의
+		//인스턴스 생성시 인수를 반드시 전달해야한다.
+		Person p1 = new Person("1234-5678", "홍길동");
+		Person p2 = new Person("5678-0123", "김철수");
+		
+		//final static 출력: static 상수 => 클래스명.필드(상수)명
+		System.out.println(Person.Nation_To);
+		
+		//인스턴스 상수 출력: 인스턴스.상수명
+		System.out.println(p1.Nation);
+		System.out.println(p1.ssn);
+		
+		//일반 멤버 필드 출력
+		System.out.println(p1.Name);
+		
+
+	}
+
+}

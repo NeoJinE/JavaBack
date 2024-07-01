@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 
 public class Ch02_07_DataType {
 	public static void main(String[] args) {

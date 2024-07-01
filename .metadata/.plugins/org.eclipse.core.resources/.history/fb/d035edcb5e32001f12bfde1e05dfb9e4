@@ -1,0 +1,34 @@
+package Practice;
+import java.util.Random;
+public class Practice1 {
+	public static void main(String[] args) {
+		Random r = new Random();
+        //1.변수&배열선언
+        int[] Ran = new int[10];
+        
+        //2.랜덤숫자10개생성(0~9범위) & 배열에 저장.
+        System.out.print("생성된 랜덤 숫자: ");
+        for (int i = 0; i < 10; i++) {
+            Ran[i] = r.nextInt(10); // 0부터 9까지의 랜덤 숫자 생성
+            System.out.print(Ran[i] + " ");
+        }
+        System.out.println(); // 줄바꿈
+        
+        //3.각 숫자의 반복횟수 출력
+        // 각 숫자의 반복 횟수를 저장할 배열 생성
+        int[] count = new int[10]; // 0부터 9까지의 숫자이므로 인덱스 0부터 9까지 사용
+        
+        // Ran 배열을 순회하면서 각 숫자의 반복 횟수 계산
+        for (int i = 0; i < Ran.length; i++) {
+            count[Ran[i]]++;
+        }
+        
+        // 결과 출력
+        for (int i = 0; i < count.length; i++) {
+            if (count[i] > 0) {
+                System.out.println(i + "의 갯수: " + count[i]);
+            }
+        }
+    }
+}
+

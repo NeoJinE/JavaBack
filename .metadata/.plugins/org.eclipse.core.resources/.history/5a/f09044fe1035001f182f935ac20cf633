@@ -1,0 +1,26 @@
+package Ch06_2.sec_26.start;
+
+import java.util.Scanner;
+
+import Ch06_2.sec_26.game.*;
+import Ch06_2.sec_26.info.*;
+
+public class AppStart {
+
+	public static void main(String[] args) {
+		// 프로그램 시작 인사말 출력
+		  System.out.println("***********************************");
+	      System.out.println("   **게임에 오신 것을 환영합니다^^");
+	      System.out.println("***********************************");
+
+	    //메뉴를 입력받아 저장 사용할 변수
+	      int Num;
+	      Scanner sc = new Scanner(System.in);
+	      
+	      
+	      
+	    //입력위한 스캐너 참조변수
+	      
+	      
+	}
+}

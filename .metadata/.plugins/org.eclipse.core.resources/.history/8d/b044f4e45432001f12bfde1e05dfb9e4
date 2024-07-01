@@ -1,0 +1,23 @@
+package Ch05_array;
+
+public class Ch05_16_Array2DEx1 {
+
+	public static void main(String[] args) {
+		//2차원 배열을 생성해서 값을 저장하고 각 행의 합을 구하여 출력
+		//1.배열 선언
+		int [][] Array = {
+			{5,9,3},
+			{7,4,8},
+			{9,5,7},
+			{7,8,9},
+			{6,9,4}
+		};
+		//2.각 행의 배열값 추출
+		for(int i=0; i<4;i++) {
+			
+		}
+		//3.출력문.
+
+	}
+
+}

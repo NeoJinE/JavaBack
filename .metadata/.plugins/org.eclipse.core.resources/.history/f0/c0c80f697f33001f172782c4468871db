@@ -1,0 +1,18 @@
+package Ch06_class_sec04;
+
+public class RectangleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1.클래스 선언
+		Rectangle area = new Rectangle();
+		
+		//2.멤버변수 호출
+		area.setRectangle();
+		
+		//3.멤버변수값 출력문 호출
+		area.showRectangle();
+	}
+
+}

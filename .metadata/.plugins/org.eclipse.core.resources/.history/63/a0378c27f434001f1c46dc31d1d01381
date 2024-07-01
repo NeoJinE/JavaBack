@@ -1,0 +1,25 @@
+package Ch06_2.sec_23;
+
+
+
+public class BookMain {
+
+	public static void main(String[] args) {
+		// 도서 정보 출력
+		
+		//1.클래스 호출
+		Book info = new Book("자바","100","홍길동","23000");
+		
+		//2.객체 인스턴스 필드 초기값 출력
+		
+		System.out.println(info);
+		
+		//3.가격변경
+		info.setPrice(20000);
+		
+		//4.변경된 가격 출력
+		System.out.println();
+		System.out.println("변경된가격: " +info.getBookPrice() );
+	}
+
+}

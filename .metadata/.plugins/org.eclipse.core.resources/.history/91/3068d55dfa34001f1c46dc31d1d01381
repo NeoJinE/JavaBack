@@ -1,0 +1,118 @@
+package Ch06_2.sec_24;
+
+import java.util.Scanner;
+
+import Ch4.Ch04_13_RandomNum1;
+
+//사칙연산을 진행하는 각 클래스는
+//멤버필드 2개.
+//생성사 메서드 => 멤버필드 초기화
+//연산 메서드 => 초기화된 멤버필드의 값을 연산 후 출력
+class Add{
+	private int num1,num2;
+	
+	public Add(int num1, int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public void Calculate() {
+		System.out.println("덧셈: " + (num1 + num2));
+	}
+}
+
+class Subtract{
+	private int num1,num2;
+	
+	public Subtract(int num1, int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public void Calculate() {
+		System.out.println("뺄셈: " + (num1 - num2));
+	}
+}
+
+class Multiply{
+private int num1,num2;
+	
+	public Multiply(int num1, int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public void Calculate() {
+		System.out.println("곱셈: " + (num1 * num2));
+	}
+}
+
+class Divide{
+private int num1,num2;
+	
+	public Divide(int num1, int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public void Calculate() {
+		System.out.println("빼기: " + (num1 / num2));
+	}
+}
+
+
+
+
+
+
+public class MultiClass {
+
+	public static void main(String[] args) {
+		// 사칙 연산 클래스 4개 추가
+		//main()에서 숫자 2개와 연산자 입력 받아서 
+		//해당 클래스의 객체 생성 / 메소드 호출하여 연산 결과 출력 
+		//실행 결과 
+		//정수1 입력 : 7
+		//정수2 입력 : 5
+		//연산자 입력 (+, -, *, /) : *
+		//곱하기 : 35
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("정수1입력: ");
+		int num1 = sc.nextInt();
+		System.out.println("정수2입력: ");
+		int num2 = sc.nextInt();
+		System.out.println("연산자(+,-,*,/입력: ");
+		char op = sc.next().charAt(0);
+		
+		switch(op) {
+		case'+' :
+			Add add = new Add(num1, num2);
+			add.Calculate();
+			break;
+		case'-' :
+			Subtract sub = new Subtract(num1, num2);
+			sub.Calculate();
+			break;
+		case'*' :
+			Multiply mul = new Multiply(num1, num2);
+			mul.Calculate();
+			break;
+		case'/' :
+			Divide divide = new Divide(num1, num2);
+			divide.Calculate();
+			break;
+		default :
+			System.out.println("연산자를 잘못 입력하셨습니다.");
+	
+		}	
+	}
+}
+
+//하나의 파일에 모든 클래스를 다 작성해도 되지만,
+//클래스 수가 아주 많아지면, 파일 크기적으로 문제가 발생, 관리도 어렵고, 가독성이 떨어진다.
+
+
+
+
+
+
+
+

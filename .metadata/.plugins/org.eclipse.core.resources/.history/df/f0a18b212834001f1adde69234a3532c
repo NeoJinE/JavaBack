@@ -1,0 +1,33 @@
+package sec10;
+
+import java.util.Scanner;
+
+public class RectangleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1.클래스선언
+		Rectangle Area = new Rectangle();
+		
+		//2.
+		Scanner sc = new Scanner(System.in);
+		System.out.println("가로길이입력: ");
+		int width = sc.nextInt();
+		System.out.println("세로길이입력: ");
+		int height = sc.nextInt();
+		
+		//2.메서드호출(가로&세로길이 입력받기)
+		Area.setRectangle(width,height);
+		
+		//3.메서드 호출(넓이를 호출)
+		Area.showRectangle();
+		
+		
+		
+		
+		
+		
+	}
+
+}

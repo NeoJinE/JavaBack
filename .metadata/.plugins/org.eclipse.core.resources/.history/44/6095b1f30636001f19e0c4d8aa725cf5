@@ -1,0 +1,14 @@
+package ch01_01;
+
+import java.util.Random;
+
+public class test {
+    public static void main(String[] args) {
+    	//1. 변수선언
+    			int User,Com;
+    			
+    			//2. 컴퓨터(난수생성) & 사용자 숫자 입력받기.
+    			Random r = new Random();
+    			Com = r.nextInt(3)+1;
+    			  
+    			System.out.println(Com);

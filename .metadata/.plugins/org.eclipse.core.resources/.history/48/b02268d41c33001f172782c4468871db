@@ -1,0 +1,5 @@
+package Ch06_class_sec01;
+
+public class Car {
+	//Car 정보 저장하고 저장된 정보 출력하는 기능을 갖고 있는 Car 클래스.
+}

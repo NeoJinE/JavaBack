@@ -1,0 +1,17 @@
+package Ch06_2.sec20;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		//객체 생성 및 초기화
+		//Person객체 생성 및 초기화
+		
+		//Person 클래스는 매개변수가 있는 생성자 정의
+		//인스턴스 생성시 인수를 반드시 전달해야한다.
+		Person p1 = new Person(null, null);
+		
+		
+
+	}
+
+}

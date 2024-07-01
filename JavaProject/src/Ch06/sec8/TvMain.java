@@ -1,0 +1,28 @@
+package Ch06.sec8;
+
+public class TvMain {
+
+	public static void main(String[] args) {
+		//객체배열사용
+		//길이가 3인 Tv 객체배열 tvArr을 선언 및 생성. =>스택영역에 생성
+		//Tv 객체 타입 인스턴스의 참조값(인스턴스 시작주소)를 저장할 수 있는 tvArr을 생성한 것=> 참조값 없음
+		//아직 Tv 객체 인스턴스는 생성하지 않았다.
+		Tv[] tvArr = new Tv[3];
+
+		//Tv 객체 인스턴스 생성 => 배열의 모든 참조변수에 인스턴스 시작주소 저장 => 인스턴스를 연결.
+		for(int i=0; i<tvArr.length;i++) {
+			//Tv 인스턴스 생성하고, 인스턴스 시작주소를 참조변수에 저장.
+			//=> 배열 각 원소들이 인스턴스와 연결된다.
+			tvArr[i]=new Tv();
+			//멤버변수 channel값 설정: 각각 10,11,12...로 설정
+			tvArr[i].channel = i+10;
+		}
+		for(int i=0; i<tvArr.length;i++) {
+			//객체배열 원소가 각각 참조하는 channel 멤버변수의 값을 1씩 증가.
+			tvArr[i].channelUp();
+			System.out.printf("tvArr[%d].channel = %d%n",i,tvArr[i].channel);
+		}
+		//이 코드에서는 Tv객체 인스턴스 3개가 생성되었고, 각가 독립적으로 사용이 된다.
+	}
+
+}
