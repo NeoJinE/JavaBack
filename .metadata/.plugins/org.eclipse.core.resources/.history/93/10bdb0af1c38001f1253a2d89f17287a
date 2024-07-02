@@ -1,0 +1,8 @@
+package ch08_interface.sec03;
+
+public class Audio implements IRemoteControl{
+	//멤버필드
+	private int volume;
+		
+	
+}

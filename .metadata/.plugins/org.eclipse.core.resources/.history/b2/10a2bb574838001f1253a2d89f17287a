@@ -1,0 +1,10 @@
+package ch09_generic_collection.sec01;
+
+public class NonGenericMain {
+
+	public static void main(String[] args) {
+		// 
+
+	}
+
+}

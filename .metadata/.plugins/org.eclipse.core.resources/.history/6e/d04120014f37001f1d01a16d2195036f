@@ -1,0 +1,9 @@
+package Ch07_inheritance.sec05;
+
+public class Student {
+	private String stdNo;
+	
+	public Student(String Name, String Ssn,String stdNo) {
+		
+	}
+}

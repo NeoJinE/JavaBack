@@ -1,0 +1,28 @@
+package ch08_interface.sec06;
+
+public class MemberMain {
+
+	public static void main(String[] args) {
+		
+		//1.데이터 저장: 객체 생성하면서 초기화
+		MemberDTO dto = new MemberDTO("abcd", "1234", "홍길동", "010-1234-1234", "서울");
+		
+		//2.회원가입 => DB에 정보를 insert하면, 가입이 완료된다.
+		//DB와 통신하는 클래스가 MemberDAO클래스, 구현된 메서드 insertMember가 회원가입을 담당한다.
+		//MemberDAO클래스의 객체 인스턴스 생성
+		MemberDAO dao = new MemberDAO();
+		dao.insertMember(dto);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

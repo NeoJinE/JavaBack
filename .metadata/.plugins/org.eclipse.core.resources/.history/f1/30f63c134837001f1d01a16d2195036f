@@ -1,0 +1,17 @@
+package Ch07_inheritance.sec03;
+//상속에서의 생성자 호출
+class A {
+	
+}
+
+class B extends A{
+	
+}
+public class ConstructorTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

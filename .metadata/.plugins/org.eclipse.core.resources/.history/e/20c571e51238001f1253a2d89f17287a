@@ -1,0 +1,6 @@
+package ch08_interface.sec01;
+//interface: 객체 생성 불가(생성자메서드 불가), 일반 인스턴스 필드 불가, 일반 인스턴스 멤버 메서드 불가
+//추상메서드가 기본으로 추가된다.
+public interface isSmartPhone {
+
+}

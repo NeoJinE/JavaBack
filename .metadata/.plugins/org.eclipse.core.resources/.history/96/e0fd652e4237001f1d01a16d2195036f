@@ -1,0 +1,29 @@
+package Ch07_inheritance.sec02_1;
+
+//학생의 기본 데이터: 이름, 주민번호, 학번으로 결정
+//이름, 주민번호는 Person클래스가 구현하고 있으므로, 상속받아서 사용
+//학번: 학생 고유 특징이므로, Student 클래스에서 새로 구성.
+public class Student extends Person {
+	//Person 상속받았으므로, Student 클래스가 갖게되는 필드는(name, ssn, stdNo)
+	
+	//1.멤버변수 선언(학생만 갖는 고유필드)
+	private int stdNo;
+	
+	//2.생성자 선언(필드에 값을 저장하는 Student 정보는 3개가 있고)
+	//Student클래스의 인스턴스 생성 후 해당 메서드로 3개의 값을 저장
+	public void setStudent(String Name, String Ssn, int stdNo) {
+		
+		setPerson(Name, Ssn);
+		System.out.println("학번입력: ");
+		this.stdNo = stdNo;
+	}
+
+	//3.toString 작성
+	@Override
+	public String toString() {
+		return super.toString()+"\n학번"+stdNo;
+	}
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package ch08_interface.sec03;
+
+public class RemoteControlMain {
+	public static void main(String[] args) {
+		
+		//인터페이스 참조변수 선언 => 다형성
+		IRemoteControl rc = null;
+		
+		//Television 객체를 인터페이스 참조변수에 대입
+		rc = new Television(); //구현클래스 객체 인스턴스는 인터페이스에 대입가능.
+		rc.turnOn();
+		rc.turnOff();
+		rc.setMute(true); //오버라이딩 x => IRemoteControl 인터페이스의 default 메서드 호출 
+		rc.setMute(false);
+		
+		
+	}
+}

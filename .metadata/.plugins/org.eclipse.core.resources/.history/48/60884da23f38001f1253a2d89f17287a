@@ -1,0 +1,56 @@
+package ch08_interface.sec07;
+
+import java.util.ArrayList;
+
+public class ProductDAO implements IProductDAO {
+	
+	//1.추상메서드 구현하기.
+	@Override
+	public void insertProduct(ProductDTO dto) {
+		System.out.println("상품정보");
+		System.out.println("상품번호: " + dto.getPrdNo());
+		System.out.println("상품명: " + dto.getPrdName());
+		System.out.println("제조회사: " + dto.getPrdMaker());
+		System.out.println("가격: " + dto.getPrdPrice());
+		System.out.println("재고량: " + dto.getPrdStock());
+		
+	}
+
+	@Override
+	public ArrayList<ProductDTO> getAllProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void detailProduct(String prdNo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ProductDTO searchProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	//추상메서드 구현
+	
+	
+	
+	
+	
+	
+}

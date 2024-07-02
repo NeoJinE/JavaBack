@@ -3,14 +3,13 @@ package Ch07_inheritance.sec07;
 public class AutomobileMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 
-		//1.클래스 호출
-		Automobile m = new Automobile();
+		//1.클래스 호출(자식클래스) (St,St,St,In,St)
+		Automobile au = new Automobile("01가1234", "아반떼", "현대", 2023, "자동");
 		
 		//2.메서드 호출
-		m.setTrans();
-		System.out.println(m);
+		System.out.println(au);		
 	}
 
 }

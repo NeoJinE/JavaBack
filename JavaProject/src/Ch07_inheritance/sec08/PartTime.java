@@ -1,19 +1,21 @@
 package Ch07_inheritance.sec08;
 
-public class PartTime extends Worker {
+import java.text.DecimalFormat;
+
+public class PartTime extends Worker {//자식클래스, 파생클래스
 	//1.멤버변수 선언.
 	private int Hours,UnitPrice,TotalPay;
-	
+	private String isWorker = "PartTime";
 	//2.생성자 초기화
-	public void setPartTime() {
-		setWorker();
-		System.out.println("시급: ");
-		this.UnitPrice = sc.nextInt();
-		System.out.println("근무시간: ");
-		this.Hours = sc.nextInt();
+	public PartTime(String joominNo, String Name,int UnitPrice, int Hours, int TotalPay){
+		super(joominNo, Name);
+		this.Hours = Hours;
+		this.UnitPrice = UnitPrice;
+		this.TotalPay = TotalPay;
 	}
-
-	//3.시급계산 
+		
+	
+	//3.시급계산 메서드 작성
 	public void CalculatePay() {
 		this.TotalPay = Hours * UnitPrice;
 	}
@@ -21,8 +23,11 @@ public class PartTime extends Worker {
 	//3.toString 출력문
 	@Override
 	public String toString() {
-		return super.toString()+ "\n시급: " + UnitPrice +
-				"\n근무시간: " + Hours +
-				"\n총지불액: " + TotalPay;
+		DecimalFormat df = new DecimalFormat("#,###");	
+		return super.toString()+ "\n시급: " + UnitPrice + "원" +
+								 "\n근무시간: " + Hours + "시간" +
+								 "\n총지불액: " + df.format(TotalPay)+ "원";
 	}
+
+	
 }

@@ -1,0 +1,20 @@
+package ch08_interface.sec01;
+
+public class iPhone implements ISmartPhone {
+
+	private String name;
+	
+	public iPhone() {
+		this.name = "iPhone";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

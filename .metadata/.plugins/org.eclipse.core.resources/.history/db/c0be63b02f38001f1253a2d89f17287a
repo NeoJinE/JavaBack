@@ -1,0 +1,27 @@
+package ch08_interface.sec05;
+
+public class MultiExtendsInterfaceMain {
+
+	public static void main(String[] args) {
+		//1.구현클래스 객체
+		ClmplClass c = new ClmplClass();
+		
+		InterfaceA ia = c;
+		ia.methodA(); //InterfaceA의 메서드만 사용가능
+		
+		InterfaceB ib = c;//InterfaceB의 메서드만 사용가능
+		ib.methodB();
+		
+		InterfaceC ic = c;//자식 인터페이스로, 부모 인터페이스 2개 존재
+		ic.methodA();
+		ic.methodB();
+		ic.methodC();
+		
+		c.methodA();
+		c.methodB();
+		c.methodC();
+		
+		
+	}
+
+}

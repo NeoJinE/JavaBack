@@ -1,0 +1,8 @@
+package ch08_interface.sec06;
+//(Data Access Object)
+//Service와 DB를 연결하는 역할을 하며, 
+//실제로 DB에 접근하여 data를 삽입, 삭제, 조회, 수정 등 CRUD 기능을 수행
+//DB연결 코드와 DB 통신 코드
+public class MemberDAO implements IMemberDAO {
+
+}

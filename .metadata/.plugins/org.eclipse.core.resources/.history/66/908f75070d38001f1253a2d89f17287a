@@ -1,0 +1,19 @@
+package Ch07_inheritance.sec08;
+
+public class PartTimeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 //1.클래스 호출
+		 PartTime p = new PartTime("990101-1034567", "홍길동", 10000, 60, 600000);
+		 
+	
+		
+		//3.출력문
+		 System.out.println(p);
+		
+	
+	}
+
+}

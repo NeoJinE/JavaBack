@@ -1,0 +1,41 @@
+package Ch07_inheritance.sec11;
+
+public class AnimalMain {
+
+	public static void main(String[] args) {
+		// 다형성: 한개의 타입 참조변수가 여러개의 타입으로 인스턴스가 할당되는 상황
+		//다형성은 상속에서만 가능한 개념.
+		
+		//1.다형성이 아닌 예 => 일반적인 방법.
+		Animal a = new Animal(); //Animal 타입의 객체참조변수 a는 Animal형태의 인스턴스로 구성이 된다.
+		a.show();
+		
+		Cat c = new Cat(); //Cat 타입의 객체참조변수 c는 Cat형태의 인스턴스로 구성이 된다.(단 상속받았으므로, Animal 형태 포함)
+		c.show();
+		
+		Dog d = new Dog();//Dog 타입의 객체참조변수 d는 Dog형태의 인스턴스로 구성이 된다.(단 상속받았으므로, Animal 형태 포함)
+		d.show();
+		
+		//2. 다형성 예 => 자식클래스는 부모 클래스에 포함된다. 
+		// ap객체 인스턴스는 Dog와 Cat클래스의 부모 클래스기 때문에, Dog 인스턴스 참조, Cat 인스턴스 참조가 가능.
+		//물론 ap는 Animal 인스턴스 참조도 가능함.
+		
+		System.out.println("Animal 객체 대입");
+		Animal ap = null;
+		ap = new Animal();	
+		ap.show();
+		ap.sound();
+		
+		//Java는 하나의 타입에 여러 타입의 객체를 대입하는걸 가능하게 함으로써 다형성을 구성한다.
+		System.out.println("Cat 객체 대입");//Cat 객체 인스턴스가 Animal 객체 인스턴스로 자동형변환 발생.
+		ap = new Cat(); //부모의 Animal은 자식인 Cat을 포함하고 있음으로, Animal 객체 인스턴스 ap에 Cat 클래스 인스턴스 구성을 참조.
+		ap.show(); //Cat에서 오버라이딩된 show가 출력이 된다.
+		ap.sound();//Cat에서 오버라이딩된 sound가 출력이 된다.
+		
+		System.out.println("Dog 객체 대입");//Dog 객체 인스턴스가 Animal 객체 인스턴스로 자동형변환이 발생한다.
+		ap = new Dog();//부모의 Animal은 자식인 Dog을 포함하고 있음으로, Animal 객체 인스턴스 ap에 Dog 클래스 인스턴스 구성을 참조.
+		ap.show();//Dog에서 오버라이딩된 show()가 호출이 되게 된다.
+		ap.sound();//Dog에서 오버라이딩된 sound()가 호출이 된다
+	
+	}
+}

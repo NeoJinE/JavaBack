@@ -1,0 +1,21 @@
+package ch08_interface.sec03;
+
+public interface IRemoteControl {
+	
+	//상수 필드 선언: public static final 이 컴파일과정에서 자동으로 붙음.
+	int MAX_VOLUME = 10;
+	int MIN_VOLUME = 0;
+	
+	void turnOn();
+	void turnOff();
+	void setVolume(int volume);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

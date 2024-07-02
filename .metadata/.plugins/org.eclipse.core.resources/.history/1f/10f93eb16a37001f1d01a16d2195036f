@@ -1,0 +1,13 @@
+package Ch07_inheritance.sec05;
+
+public class PersonStudentMain {
+
+	public static void main(String[] args) {
+		//1. 클래스 호출
+		Student s = new Student("홍길동","123456-1234567", "2024001");
+		System.out.println(s);
+		
+
+	}
+
+}

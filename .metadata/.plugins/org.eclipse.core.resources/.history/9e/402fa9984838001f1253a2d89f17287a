@@ -1,0 +1,14 @@
+package ch09_generic_collection.sec01;
+
+public class NonGenericMain {
+
+	public static void main(String[] args) {
+		//제네릭을 사용하지 않은 Box 클래스 객체 생성 및 사용
+		Box box = new Box();
+		//멤버필드 obj에 값을 저장.(문자열 저장)
+		box.set("홍길동");//자동 형변환 : String => Object.
+		//box 인스턴스 필드에 저장된 값을 반환 받아서 추출.
+
+	}
+
+}

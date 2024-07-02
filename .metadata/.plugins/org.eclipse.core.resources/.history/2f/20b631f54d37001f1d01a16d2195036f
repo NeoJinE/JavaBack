@@ -1,0 +1,21 @@
+package Ch07_inheritance.sec04;
+
+public class Manager extends Employee {
+	
+	private String Position;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

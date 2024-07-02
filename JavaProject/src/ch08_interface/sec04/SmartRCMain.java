@@ -1,0 +1,26 @@
+package ch08_interface.sec04;
+
+public class SmartRCMain {
+
+	public static void main(String[] args) {
+		//2개의 인터페이스를 한개의 클래스가 구현.
+
+		//1.객체 인스턴스
+		SmartTelevision stv = new SmartTelevision();
+		stv.turnOn(); //IRemoteControl 인터페이스 메서드.
+		stv.search("www.naver.com");//ISearchable 인터페이스 메서드
+		stv.turnOff();//IRemoteControl 인터페이스 메서드.
+		
+		//인터페이스 참조변수에 2개 인터페이스 구현한 구현클래스 인스턴스가 대입이 되는지????
+		ISearchable isc = new SmartTelevision();
+		IRemoteControl irt = new SmartTelevision();
+		
+		isc.search("www.naver.com"); // 인터페이스 자신의 추상메서드 구현은 사용가능.
+		//isc.turnOff():다른 인터페이스 접근 불가능
+		
+		irt.turnOff();//IRemoteControl 인터페이스 메서드
+		//irt.search("www.daum.net");다른 인터페이스 접근 불가능
+		
+	}
+
+}

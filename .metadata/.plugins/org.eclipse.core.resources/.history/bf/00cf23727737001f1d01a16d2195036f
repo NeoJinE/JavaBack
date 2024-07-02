@@ -1,0 +1,13 @@
+package Ch07_inheritance.sec13;
+
+public class ChildMain {
+
+	public static void main(String[] args) {
+		// 자식클래스 인스턴스
+		Child child = new Child();
+		
+		//부모클래스 타입 참조변수에 자식 클래스 객체 대입
+		Parent parent = child;
+	}
+
+}

@@ -1,0 +1,8 @@
+package ch08_interface.sec06;
+
+public class MemberDTO {
+	//데이터 전용 클래스(Data Transfer Object)
+	//로직을 가지지 않고 getter/setter 메소드만 가진 순수한 데이터 객체 클래스(Java Beans)로
+	//DB에서 데이터를 얻어 Service나 Controller 등으로 보낼 때 사용합니다.
+	
+}

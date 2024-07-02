@@ -1,0 +1,18 @@
+package ch08_interface.sec01;
+
+public class SamsungPhone implements ISmartPhone {
+	private String name;
+	
+	public SamsungPhone() {
+		this.name = "삼성폰";
+	}
+	
+	
+	@Override
+	public void sendCall() {
+		
+	}
+	
+	
+	
+}

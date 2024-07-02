@@ -1,0 +1,8 @@
+package Ch07_inheritance.sec15;
+
+public class Line extends DrawingObject {
+	//생성자함수 생성
+	public Line() {
+		pencolor = "red"; //부모(추상)클래스 멤버필드 초기화 진행.
+	}
+}

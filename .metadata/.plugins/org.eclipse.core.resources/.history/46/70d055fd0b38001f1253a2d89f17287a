@@ -1,0 +1,20 @@
+package Ch07_inheritance.sec08;
+
+public class Worker {///부모클래스, 슈퍼클래스
+	
+		//1.멤버변수 선언
+		private String joominNo ,Name;
+		
+		//2.생성자 초기화
+		public Worker(String joominNo, String Name){
+			this.joominNo=joominNo;
+			this.Name = Name;
+		}
+		
+		//3.toString 출력문 작성
+		@Override
+		public String toString() {
+			return "주민번호: " + joominNo +
+				   "\n성명: " + Name;
+		}
+}

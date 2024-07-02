@@ -1,0 +1,13 @@
+package Ch07_inheritance.sec11;
+
+//강아지와 고양이는 동물에 포함된다.
+public class Animal {
+	public void show() {
+		
+	}
+	
+	
+	
+	
+	
+}

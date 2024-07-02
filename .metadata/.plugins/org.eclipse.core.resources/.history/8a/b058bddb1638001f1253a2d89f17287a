@@ -1,0 +1,9 @@
+package ch08_interface.sec02;
+
+public interface ITestinterface {
+	//메서드 추가 => 인터페이스에서 선언부만 설정하면, 무조건 추상메서드.
+	public abstract void show(); //추상메서드 형태
+	abstract void show2(); //디폴트 접근 제한 추상 메서드 형태
+	public void show3(); //일반 메서드 형태
+	void show4(); // 디폴트 일반 메서드 형태
+}

@@ -1,0 +1,14 @@
+package Ch07_inheritance.sec15;
+
+public abstract class DrawingObject {//추상클래스는 무조건 상속되어져서 자식클래스에서 추상메서드 재정의 해야 함.
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

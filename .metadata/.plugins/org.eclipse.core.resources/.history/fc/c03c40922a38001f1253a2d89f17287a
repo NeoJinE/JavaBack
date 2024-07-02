@@ -1,0 +1,35 @@
+package ch08_interface.sec03;
+
+public class RemoteControlMain {
+	public static void main(String[] args) {
+		
+		//인터페이스 참조변수 선언 => 다형성
+		IRemoteControl rc = null;
+		
+		//Television 객체를 인터페이스 참조변수에 대입
+		rc = new Television(); //구현클래스 객체 인스턴스는 인터페이스에 대입가능.
+		rc.turnOn(); //Television에서 구현한 메서드 호출
+		rc.turnOff();//Television에서 구현한 메서드 호출
+		rc.setMute(true); //오버라이딩 x => IRemoteControl 인터페이스의 default 메서드 호출 
+		rc.setMute(false);//오버라이딩 x => IRemoteControl 인터페이스의 default 메서드 호출 
+		rc.setVolume(20);//MAX 초과시 MAX로 설정
+		System.out.println("-------------------------------------\n");
+	
+		/*rc = new Audio(); //rc 인터페이스 참조변수가 Audio객체를 참조.
+		rc.turnOn(); // Audio 재정의 (구현) 메서
+		rc.turnOff();// Audio 메서드
+		rc.setVolume(12);
+		
+		rc.setMute(true);//인터페이스 default 메서드지만, Audio가 재정의했다. => 재정의된 메서드가 호출된다.
+		
+		//인터페이스의 static(정적) 메서드호출
+		IRemoteControl.changeBattery();*/
+		
+		
+	
+	
+	
+	
+	
+	}
+}

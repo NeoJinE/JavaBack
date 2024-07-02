@@ -1,0 +1,43 @@
+package ch08_interface.sec04;
+
+import ch08_interface.sec03.IRemoteControl;
+
+//구현클래스 => 2개이상의 인터페이스를 구현하는것(다중 인터페이스)
+public class SmartTelevision implements IRemoteControl, ISearchable{
+	private int volume;
+
+	@Override
+	public void search(String url) {
+	System.out.println(url +"검색합니다");
+		
+	}
+
+	@Override
+	public void turnOn() {
+		System.out.println("스마트 Tv를 킵니다");
+			
+	}
+
+	@Override
+	public void turnOff() {
+		System.out.println("스마트 Tv를 끕니다");
+		
+	}
+
+	@Override
+	public void setVolume(int volume){
+		//인터페이스 상수필드 활용해서 최대/최소 볼륨 체크 후 설정.
+		if(volume> IRemoteControl.MAX_VOLUME) {
+			this.volume = IRemoteControl.MAX_VOLUME;
+		}else if(volume<IRemoteControl.MIN_VOLUME){
+			this.volume = IRemoteControl.MIN_VOLUME;
+		}else {
+			this.volume = volume;
+		}
+		System.out.println("현재 Audio 볼륨: " + this.volume);
+	}
+	
+	
+	
+	
+}

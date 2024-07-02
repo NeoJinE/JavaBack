@@ -1,0 +1,10 @@
+package ch07_inheritance.sec05;
+
+public class PersonStdMain {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

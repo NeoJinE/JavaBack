@@ -3,19 +3,18 @@ package Ch07_inheritance.sec07;
 public class Automobile extends Car {
 
 		//1.멤버변수 선언
-		String autoMoblie;
+		String autoManual;
 		
-		//2.생성자 초기화
-		public void  setTrans () {
-			setCar();
-			System.out.println("기어변속");
-			this.autoMoblie = sc.next();
+		//2.생성자 초기화 (부모클래스 상속값 가져오기 => Super)
+		public Automobile (String carNo, String carName, String carMaker, int carYear, String autoManual) {
+			super(carNo, carName, carMaker, carYear);
+			this.autoManual = autoManual;
 		}
 
-		//3.toString 출력문
+		//3.toString 출력문 (부모클래스 상속값 가져오기 => Super.toString())
 		@Override
 		public String toString() {
-			return super.toString() + "기어변속: " + autoMoblie;
+			return super.toString() + "\n기어변속: " + autoManual;
 		}
 		
 		

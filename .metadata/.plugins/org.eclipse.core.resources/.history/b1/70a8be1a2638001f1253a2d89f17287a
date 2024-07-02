@@ -1,0 +1,5 @@
+package ch08_interface.sec07;
+
+public class ProductDTO {
+
+}

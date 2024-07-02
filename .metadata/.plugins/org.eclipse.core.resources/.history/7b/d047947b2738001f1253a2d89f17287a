@@ -1,0 +1,8 @@
+package ch08_interface.sec07;
+
+public class ProductDTO implements IProductDAO{
+
+	//1.멤버변수선언
+	private String prdNo,prdName,prdMaker;
+	private int prdPrice, prdStock;
+}

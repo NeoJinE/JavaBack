@@ -1,0 +1,19 @@
+package Ch07_inheritance.sec09;
+
+public class ComputerMain {
+
+	public static void main(String[] args) {
+		// 오버라이딩된 메서드 사용
+		int r = 10;
+		
+		//재정의 하지않은 areaCircle() 메서드 호출해서 결과 확인
+		Calculator cal = new Calculator();
+		System.out.println("원의 넓이: " + cal.areaCircle(r)); //int => double로 자동 형변환
+		
+		//재정의한 메서드 호출(자식클래스에서 재정의)
+		Computer com = new Computer();
+		System.out.println("원의 넓이: " + com.areaCircle(r));
+
+	}
+
+}

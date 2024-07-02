@@ -1,0 +1,21 @@
+package ch08_interface.sec03;
+
+public interface IRemoteControl {
+	
+	//상수 필드 선언: public static final 이 컴파일과정에서 자동으로 붙음.
+	int MAX_VOLUME = 10;
+	int MIN_VOLUME = 0;
+	
+	//반환 데이터타입 & 메서드명 & 매개변수 => 필수선언. (컴파일 과정에서 자동으로 public abstract붙음)
+	//반드시 하위클래스에서 오버라이딩 해야한다.
+	void turnOn();
+	void turnOff();
+	void setVolume(int volume);
+	
+	//디폴트 메서드 선언
+	//디폴트 메서드: 실행블록{}이 있는 메서드
+	//default 붙여야한다. (접근제한자가 아닌, 메서드의 유형)
+	
+	
+	
+}

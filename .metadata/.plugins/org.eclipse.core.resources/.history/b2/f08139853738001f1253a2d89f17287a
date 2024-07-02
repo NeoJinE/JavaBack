@@ -1,0 +1,11 @@
+package ch08_interface.sec06;
+
+public interface IMemberDAO {
+	
+	//1.추상메서드 선언
+	//1-1회원등록: 1명의 회원정보를 받아서 DB에 저장하고 종료, 반환값은 없다.
+	public void insertMember();
+	
+	//1-2.회원정보삭제:회원 ID를 전달받아서, DB에서 해당 ID를 삭제하고 종료, 반환값은 없다.
+	public void deleteMember();
+}

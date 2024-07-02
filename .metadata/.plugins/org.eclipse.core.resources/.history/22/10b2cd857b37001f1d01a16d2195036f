@@ -1,0 +1,15 @@
+package Ch07_inheritance.sec14;
+
+public class Cat extends Animal {
+	// 재정의
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		System.out.println("고양이 입니다.");
+	}
+	
+	@Override
+	public void sound() {
+		System.out.println("야옹");
+	}
+}

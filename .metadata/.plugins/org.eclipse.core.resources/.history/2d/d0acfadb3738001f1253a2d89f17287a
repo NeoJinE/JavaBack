@@ -1,0 +1,26 @@
+package ch08_interface.sec07;
+
+public interface IProductDAO {
+
+	//1.필드 선언
+	
+	
+	
+	
+	//2.추상메서드 선언
+	public void insertProduct();
+	public void getAllProduct();
+	public void detailProduct(String prdNo);
+	public void deleteProduct();
+	public void updateProduct();
+	
+	public default void searchProduct(String prdName) {
+		if() {
+			
+		}else {
+			
+		}
+	}
+	
+	
+}

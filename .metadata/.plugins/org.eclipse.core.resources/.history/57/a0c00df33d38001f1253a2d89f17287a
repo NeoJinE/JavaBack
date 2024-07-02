@@ -1,0 +1,7 @@
+package ch08_interface.sec07;
+
+public class ProductDAO implements IProductDAO {
+
+	//추상메서드 구현
+	
+}

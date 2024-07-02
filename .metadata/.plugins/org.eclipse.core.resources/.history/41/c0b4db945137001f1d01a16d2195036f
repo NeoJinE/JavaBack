@@ -1,0 +1,32 @@
+package Ch07_inheritance.sec06;
+
+public class SuperTest {
+	
+	class SuperClass{
+		int x; //default필드, 상속되고 상속받은 클래스에서 접근가능.
+		int y;
+		
+		public SuperClass() {
+			x=5;
+			y=10;
+		}
+	}
+	
+	class SubClass extends SuperClass{
+		int x;
+		public SubClass() {
+			x =10;
+		}
+	public void show() {
+		//SubClass의 필드 x, SuperClass의 필드 x
+		System.out.println("x: " + x);
+		System.out.println("this.x: " + this.x);
+		
+	}
+	
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

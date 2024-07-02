@@ -1,0 +1,30 @@
+package Ch07_inheritance.sec04;
+
+public class Manager extends Employee {
+	
+	private String position;
+	
+	
+	//매개변수 4개있는 생성자 메서드
+	//매개변수 3개는 부모 클래스에게 전달, 1개는 현재 클래스에서 사용
+	public Manager(String empNo, String empName, String empPart,String position) {
+		super(empNo,empName,empPart)
+		this.position=position;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		// 부모 클래스의 toString() 호출
+		// super 레퍼런스 : 부모 클래스를 가리키는 레퍼런스
+		return super.toString() + "\n직위 : " + position;
+	}
+	
+}

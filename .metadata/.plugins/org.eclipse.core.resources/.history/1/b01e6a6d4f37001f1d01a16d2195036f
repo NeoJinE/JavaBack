@@ -1,0 +1,10 @@
+package Ch07_inheritance.sec05;
+
+public class Student extends Person {
+	private String stdNo;
+	
+	public Student(String Name, String Ssn,String stdNo) {
+		super(Name,Ssn,stdNo);
+		this.
+	}
+}

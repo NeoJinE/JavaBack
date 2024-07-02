@@ -1,0 +1,28 @@
+package Ch07_inheritance.sec02_1;
+
+public class PersonStdMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//1.클래스 선언
+		Student st = new Student();
+		
+		//2.Student메서드 호출
+		st.setStudent("홍길동", "1234-5678", "s1234");
+		System.out.println(st);
+		
+		
+		//3.Person메서드 호출.
+		Person ps = new Person();
+		
+		ps.setPerson("김철수", "");
+		System.out.println(ps);
+		
+		
+		
+		
+		
+	}
+
+}

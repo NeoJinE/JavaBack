@@ -1,0 +1,28 @@
+package ch08_interface.sec03;
+
+public class Audio implements IRemoteControl{
+	//멤버필드
+	private int volume;
+	private boolean mute;
+	
+	//필수로 재정의 해야하는 추상메서드
+	@Override
+	public void turnOn{
+		
+	}
+		
+	@Override
+	public void turnOff{
+		
+	}
+	
+	@Override
+	public void turnOff{
+		
+	}
+	
+	@Override
+	public void setVolume(int volume){
+		
+	}
+}

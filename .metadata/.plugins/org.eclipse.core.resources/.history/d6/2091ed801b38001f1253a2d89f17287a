@@ -1,0 +1,9 @@
+package ch08_interface.sec03;
+
+public interface IRemoteControl {
+	
+	//public static final 이 컴파일과정에서 자동으로 붙음.
+	int MAX_VOLUME = 10;
+	int MIN_VOLUME = 0;
+	
+}

@@ -1,0 +1,15 @@
+package ch08_interface.sec04;
+
+public class SmartRCMain {
+
+	public static void main(String[] args) {
+		//2개의 인터페이스를 한개의 클래스가 구현.
+
+		//1.객체 인스턴스
+		SmartTelevision stv = new SmartTelevision();
+		stv.turnOn(); //IRemoteControl 인터페이스 메서드.
+		stv.search("www.naer.com");//ISearchable 인터페이스 메서드
+		
+	}
+
+}

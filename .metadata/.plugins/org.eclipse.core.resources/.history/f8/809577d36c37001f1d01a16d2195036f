@@ -1,0 +1,24 @@
+package Ch07_inheritance.sec07;
+
+public class Automobile extends Car2 {
+
+		//1.멤버변수 선언
+		String autoMoblie;
+		
+		//2.생성자 초기화
+		public Automobile (String carNo, String carName, String carMaker, int carYear, String automobile) {
+			super(carNo, carName, carMaker, carYear);
+			this.autoMoblie = automobile;
+		}
+
+		//3.toString 출력문
+		@Override
+		public String toString() {
+			return super.toString() + "\n기어변속: " + autoMoblie;
+		}
+		
+		
+		
+		
+		
+}

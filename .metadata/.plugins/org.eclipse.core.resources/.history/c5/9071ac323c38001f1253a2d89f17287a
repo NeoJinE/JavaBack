@@ -1,0 +1,23 @@
+package ch08_interface.sec07;
+
+import java.util.ArrayList;
+
+import ch08_interface.sec06.E;
+
+public interface IProductDAO {
+
+	//1.필드 선언
+	
+	
+	
+	
+	//2.추상메서드 선언
+	public void insertProduct(ProductDTO dto);
+	public ArrayList<E>getAllProduct();
+	public void detailProduct(String prdNo);
+	public void deleteProduct();
+	public void updateProduct();
+	public  searchProduct();
+	
+	
+}

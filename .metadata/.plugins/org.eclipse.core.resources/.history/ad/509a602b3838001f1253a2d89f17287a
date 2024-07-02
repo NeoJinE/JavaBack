@@ -1,0 +1,27 @@
+package ch08_interface.sec06;
+
+public interface IMemberDAO {
+	
+	//1.추상메서드 선언
+	
+	//1-1회원등록: 
+	//1명의 회원정보를 받아서(매개변수) DB에 저장하고 종료, 반환값은 없다.
+	public void insertMember();
+	
+	//1-2.회원정보삭제:
+	//회원 ID를 전달받아서(매개변수), DB에서 해당 ID를 삭제하고 종료, 반환값은 없다.
+	public void deleteMember();
+	
+	//1-3.전체 회원정보 조회: 
+	//전체회원의 정보를 조회, DB에 회원정보를 저장하는 회원테이블에서 전체 회원 정보를 반환.
+	public getAllMemeber();
+	
+	//1-4.회원정보를 수정: 
+	//1명의 수정된 회원정보를 전달받아서(매개변수), DB에 수정&저장하고 종료, 반환값은 없다.
+	public void updateMember();
+	
+	//1-5.회원정보 검색 : 
+	//회원의 ID를 전달받아서(매개변수) 해당 ID의 회원정보를 DB에서 찾아 반환하는 메서드
+	public searchMember();
+	
+}

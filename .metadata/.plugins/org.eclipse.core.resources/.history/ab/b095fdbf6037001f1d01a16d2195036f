@@ -1,0 +1,5 @@
+package Ch07_inheritance.sec09;
+//Computer는 계산기에 포함된다.
+public class Computer extends Calculateor { //부모클래스
+
+}

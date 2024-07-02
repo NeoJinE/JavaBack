@@ -1,0 +1,29 @@
+package Ch07_inheritance.sec03;
+class A {
+	//기본생성자
+	public A() {
+		System.out.println("기본 생성자 A");
+	}
+	
+	public A(int x) {
+		System.out.println("매개변수 생성자 A: " + x);
+}
+
+
+
+class B extends A{
+	//기본 생성자
+	public B() { 
+		System.out.println("기본 생성자 B");
+	}
+	public B(int x) { 
+		System.out.println("매개변수 생성자 B: " + x);
+}
+public class ConstructorTest2 {
+
+	public static void main(String[] args) {
+		//
+		B b new B(5);
+		
+	}
+}

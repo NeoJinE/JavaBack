@@ -1,0 +1,8 @@
+package ch08_interface.sec04;
+
+//구현클래스 => 2개이상의 인터페이스를 구현하는것(다중 인터페이스)
+public class SmartTelevision implements IRemoteControl, ISearchable{
+	private int volume;
+	
+	
+}

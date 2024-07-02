@@ -1,0 +1,10 @@
+package Ch07_inheritance.sec07;
+
+public class AutoMobileMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

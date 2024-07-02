@@ -1,0 +1,41 @@
+package Ch07_inheritance.sec06;
+	
+	class SuperClass{//<부모클래스> 접근 제한자 생략되어 있으므로, default 접근 제한
+	int x; //default필드, 상속되고 상속받은 클래스에서 접근가능.
+	int y;
+	
+	public SuperClass() {
+		x=5;
+		y=10;
+	}
+}
+
+
+	class SubClass extends SuperClass{//<자식클래스>접근 제한자 생략되어 있으므로, default 접근 제한
+	int x;
+	
+	public SubClass() {
+		x =10;
+	}
+
+	public void show() {
+	//SubClass의 필드 x, SuperClass의 필드 x
+	System.out.println("x: " + x); //(10) SubClass 내에서 x의 접근이므로, 가까운 x가 접근, 자식클래스 x
+	System.out.println("this.x: " + this.x);//(10)자식클래스
+	System.out.println("super.x: " + super.x);//(5)부모클래스 x
+	System.out.println("y: " + y); //(10)SubClass 내에서 y접근이므로, 가까운 y가 접근, 자식클래스는y가 없으므로, 
+								   //자신의 클래스는 y가 없지만, 부모클래스는 있으므로 부모클래스 y를 접근하게 된다	
+	System.out.println("super.y: " + super.y);//(10)부모클래스 y
+	
+}
+
+}
+
+public class SuperTest {
+	
+	
+	public static void main(String[] args) {
+		SubClass sc = new SubClass();
+		sc.show();
+	}
+}
