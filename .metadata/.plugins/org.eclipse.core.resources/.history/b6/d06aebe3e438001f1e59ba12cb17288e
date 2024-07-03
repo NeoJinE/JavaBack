@@ -1,0 +1,10 @@
+package ch09_generic_collection.sec04;
+
+public class ArrayListMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

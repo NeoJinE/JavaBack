@@ -1,0 +1,49 @@
+package ch09_generic_collection.sec13;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//1.입력단어 멤버변수선언
+		String input ="";
+		//2.HashMap 클래스
+		HashMap<String,String> voca = new HashMap<String,String>();
+
+
+		//3.HashMap 인스턴스 객체 저장
+		voca.put("사과","apple");
+		voca.put("여름","summer");
+		voca.put("사탕","candy");
+		voca.put("학교","school");
+		voca.put("버스","bus");
+		voca.put("물","water");
+		
+		//4.반복문으로 찾고싶은 단어 입력
+		while(true) {
+			
+			System.out.println("찾고싶은단어는?");
+			input = sc.next();
+			
+		if(voca.get(input)==null) {
+			System.out.println("종료합니다");
+			break;
+		}else {
+			System.out.println(voca.get(input));
+		}
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

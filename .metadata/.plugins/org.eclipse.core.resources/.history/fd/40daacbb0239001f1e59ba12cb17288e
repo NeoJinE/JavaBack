@@ -1,0 +1,32 @@
+package ch09_generic_collection.sec13;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap<String, String>();
+		
+		map.put("apple", "사과"); //value는 중복 가능
+		map.put("summer", "여름");
+		map.put("candy", "사탕");
+		map.put("school", "학교");  //key
+		map.put("water", "물");
+		map.put("exit", "종료합니다...");
+		map.put("bus", "bus는 없는단어입니다.");
+		
+		Set<String> keySet = map.keySet();
+		for (String k : keySet) {
+			Scanner sc = new Scanner(System.in);
+			System.out.print("찾고싶은 단어는?");
+			k = sc.next();
+			System.out.println(map.get(k));
+		}
+		
+		
+	}
+
+}

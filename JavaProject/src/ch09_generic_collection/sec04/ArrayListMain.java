@@ -1,0 +1,38 @@
+package ch09_generic_collection.sec04;
+
+import java.util.ArrayList;
+
+public class ArrayListMain {
+
+	public static void main(String[] args) {
+		// 제네릭 타입이 아닌 경우 ArrayList 사용
+		ArrayList list = new ArrayList(); 
+
+		//리스트 항목 추가 : add()메서드
+		//항목은 모든 타입 가능(object타입으로 구성된다)
+		//object 타입으로 자동 형변환
+		
+		list.add(100);
+		list.add("홍길동");
+		list.add(7.7);
+		list.add("자바");
+		list.add("홍길동");
+	
+		//list의 특정 idx값 추출
+		System.out.println(list.get(2));//필요 타입으로 클래스 내부에서 강제 형변환.
+	
+		//list 전체 내용 출력: get(인덱스) - 원소하나 반환
+		//size(): list내 전체 객체(원소)수를 반환
+		for(int i = 0; i<list.size(); i++) {
+			System.out.println(list.get(i));
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}

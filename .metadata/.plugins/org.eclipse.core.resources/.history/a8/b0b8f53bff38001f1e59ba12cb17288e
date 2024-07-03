@@ -1,0 +1,23 @@
+package ch09_generic_collection.sec13;
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+		// HashMap 클래스
+		Voca<String,Integer> voca = new HashMap<String,Integer>();
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

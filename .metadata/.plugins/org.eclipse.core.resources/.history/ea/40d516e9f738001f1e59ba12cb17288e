@@ -1,0 +1,65 @@
+package ch09_generic_collection.sec06;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListEmployee {
+
+	public static void main(String[] args) {
+		//사용자정의 클래스 타입을 이용해서 ArrayList test진행
+		
+		//3명의 직원 인스턴스 생성
+		Employee e1 = new Employee(100, "김사원", 3000);
+		Employee e2 = new Employee(101, "이대리", 4000);
+		Employee e3 = new Employee(102, "박부장", 5000);
+		
+		//제너릭 사용=> list에 사용될 객체원소의 타입은 Employee타입이어야 한다
+		ArrayList<Employee> list = new ArrayList<Employee>();
+		
+		//객체인스턴스 넣는방법
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		
+		//객체를 넣는 방법
+		list.add(new Employee(103, "김부장", 5000));
+		
+		for(int i=0; i<list.size(); i++) {
+			System.out.println(list.get(i));
+			//list.get(i) : list에 객체원소로 Employee 타입의 참조값 => toString()호출
+		}
+		System.out.println(e1);
+		System.out.println("-----------------------------------------");
+	
+		//향상된 for문 사용
+		for(Employee emp: list) {
+			System.out.println(emp);
+		}
+		
+		System.out.println();
+		
+		//Iterator 사용해서 출력
+		//Iterator란 Java의 컬렉션에 저장되어 있는 요소들을 순회하는 인터페이스
+		//Iterator 인터페이스는 Java의 컬렉션 클래스가 구현해주고 있음.
+		//즉, ArrayList 클래스는 List 인터페이스와 Iterator 인터페이스를 구현
+		//Iterator 인터페이스의 대표적 메서드는 => iterator():컬렉션 객체 원소들을 한개씩 독립된 iterator 객체로 생성
+		Iterator<Employee> it = list.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

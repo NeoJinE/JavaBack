@@ -1,0 +1,6 @@
+package ch08_interface.sec08;
+
+public interface IBookDAO {
+	//도서관리 프로그램에서 필수적(DB)으로 구성해야 할 메서드를 결정
+	
+}

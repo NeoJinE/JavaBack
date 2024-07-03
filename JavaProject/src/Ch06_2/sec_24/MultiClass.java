@@ -2,7 +2,6 @@ package Ch06_2.sec_24;
 
 import java.util.Scanner;
 
-import Ch04.Ch04_13_RandomNum1;
 
 //사칙연산을 진행하는 각 클래스는
 //멤버필드 2개.

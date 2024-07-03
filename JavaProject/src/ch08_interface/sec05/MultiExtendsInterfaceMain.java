@@ -14,7 +14,8 @@ public class MultiExtendsInterfaceMain {
 		
 		//자식 인터페이스로, 부모 인터페이스 2개 존재
 		
-		InterfaceC ic = c;ic.methodA();
+		InterfaceC ic = c;
+		ic.methodA();
 		ic.methodB();
 		ic.methodC();
 		

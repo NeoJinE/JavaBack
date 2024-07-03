@@ -1,0 +1,6 @@
+package ch08_interface.sec08;
+
+public class BookDTO { //Data Transfer Object
+	
+	
+}

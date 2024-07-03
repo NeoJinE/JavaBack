@@ -1,0 +1,29 @@
+package ch09_generic_collection.sec04;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListGenMain {
+
+	public static void main(String[] args) {
+		//제네릭타입의 ArrayList
+		//인스턴스 생성시 타입을 결정
+		ArrayList<String> list = new ArrayList<String>();
+		//ArrayList는 List 인터페이스를 구현한 구현 클래스
+		List<String> List2 = new ArrayList<String>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

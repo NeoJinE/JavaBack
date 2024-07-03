@@ -1,0 +1,39 @@
+package ch09_generic_collection.sec04;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListGenMain {
+
+	public static void main(String[] args) {
+		//제네릭타입의 ArrayList
+		
+		//인스턴스 생성시 타입을 결정
+		//ArrayList<String> list = new ArrayList<String>();
+		
+		//ArrayList는 List 인터페이스를 구현한 구현 클래스
+		List<String> list = new ArrayList<String>();
+		
+		//add() 객체원소 저장
+		//먼저 저장되는 객체가 우선 순서번호(idx)를 갖는다
+		//제네릭 타입을 String으로 설정했기 때문에 문자열 객체 원소만 가능
+		list.add("Java");
+		list.add("DataBase");
+		list.add("HTML");
+		list.add("DataBase"); //데이터 중복가능.
+		list.add("프로그래밍");
+		
+		System.out.println("총 객체 수: " + list.size());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

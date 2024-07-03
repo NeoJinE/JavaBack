@@ -1,7 +1,5 @@
 package ch08_interface.sec04;
 
-import ch08_interface.sec04.IRemoteControl;
-
 //구현클래스 => 2개이상의 인터페이스를 구현하는것(다중 인터페이스)
 public class SmartTelevision implements ISearchable,IRemoteControl{
 	private int volume;

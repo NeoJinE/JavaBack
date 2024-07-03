@@ -1,0 +1,34 @@
+package ch09_generic_collection.sec13;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+		// (영어, 한글) 단어를 쌍으로 해시맵에 저장하고 영어로 한글을 검색하는 프로그램
+		Map<String, String> map = new HashMap<String, String>();
+		
+		map.put("apple","사과");
+		map.put("summer","여름");
+		map.put("candy","사탕");
+		map.put("school","학교");
+		map.put("bus","bus는 없는 단어 입니다");
+		map.put("water","사과");
+		map.put("exit","종료합니다...");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(String k : map.keySet()) {
+			System.out.print("찾고 싶은 단어는?");
+			k = sc.next();
+			System.out.println(map.get(k));
+			if(k.equals("exit")) break;
+		}
+		
+		
+
+	}
+
+}

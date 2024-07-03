@@ -13,8 +13,8 @@ public class NonGenericMain {
 		System.out.println(name);
 		
 		Box box2 = new Box();
-		box2.set(7); //자동형변환: int => Integer객체로 자동 형변환 =>Object
-		int no = (int)box2.get(); //강제 타입변화니 Object => Integer => int로 형변환
+		box2.set(7); //자동형변환: int => Integer객체로 자동 형변환(바인딩이 발생) =>Object
+		int no = (int)box2.get(); //강제 타입변환: Object => Integer (언바인딩) => int로 형변환
 		System.out.println(no);
 	
 	}

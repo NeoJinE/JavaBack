@@ -1,0 +1,43 @@
+package ch09_generic_collection.sec13;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+
+	
+		HashMap<String, String> words = new HashMap<String, String>();
+		Scanner sc = new Scanner(System.in);
+		
+		String word = "";
+		
+		words.put("apple", "사과");
+		words.put("summer", "여름");
+		words.put("candy", "사탕");
+		words.put("school", "학교");
+		words.put("bus", "버스");
+		words.put("water", "물");
+		
+		while (true) {
+			System.out.print("찾고 싶은 단어는? ");
+			
+			word = sc.next();
+			
+
+			if (words.get(word) == null) {
+				System.out.println("종료합니다... ");
+				
+				break;
+			}
+			else System.out.println(words.get(word));
+			
+			
+		}
+		
+		sc.close();
+		
+	}
+
+}

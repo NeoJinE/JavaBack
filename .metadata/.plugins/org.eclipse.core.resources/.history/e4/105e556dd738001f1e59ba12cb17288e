@@ -1,0 +1,31 @@
+package ch08_interface.sec08;
+
+public interface IBookDAO {
+	//도서관리 프로그램에서 필수적(DB)으로 구성해야 할 메서드를 결정
+	//추상메서드 선언 
+	
+	//1. 도서 등록
+	public void insertBook(BookDTO dto);
+	//2. 전체 도서 정보 조회 : 여러 도서 반환
+	
+	//3. 상세 도서 조회
+	
+	//4. 도서 정보 삭제
+	
+	//5. 도서 정보 수정
+	
+	//6. 도서 검색(저장로 검색) => 여러 도서 반환
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

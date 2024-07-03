@@ -1,0 +1,13 @@
+package ch09_generic_collection.sec03;
+
+public class GenProductMain {
+
+	public static void main(String[] args) {
+		// 멀티타입 파라미터
+		Product <Tv, String> prd1 = new Product<Tv,String>();
+		
+		prd1.setKind(new Tv());
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package ch09_generic_collection.sec11;
+
+import java.util.HashMap;
+import java.util.Map;
+public class MapTest {
+
+	public static void main(String[] args) {
+		// Map interface를 구현한 HashMap 클래스 활용
+		Map<String, Integer> map = new Map<String, Integer>();
+
+	}
+
+}

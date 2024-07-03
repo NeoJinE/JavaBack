@@ -1,0 +1,32 @@
+package ch08_interface.sec08;
+
+public class BookDTO { //Data Transfer Object
+	//1.멤버필드: DB에 저장될 Book의 정보
+	private String bookNo;
+	private String bookName;
+	private String bookAuthor;
+	private String bookPublisher;
+	private String bookDate; //문자열로 구성한 후에 DB에서 날짜형식으로 변경해서 사용
+//	private Date bookDate2;//날짜 형식으로 구성해서 DB에 전달
+	private int bookPrice;
+	
+	
+	//2.기본 생성자 함수
+	public BookDTO() { 
+		
+	}
+	
+	//3.생성자 오버로딩(매개변수가 있는 생성자함수)
+	public BookDTO(String bookNo, String bookName, String bookAuthor, int bookPrice, String bookDate,
+			String bookPublisher) {
+		this.bookNo = bookNo;
+		this.bookName = bookName;
+		this.bookAuthor = bookAuthor;
+		this.bookPrice = bookPrice;
+		this.bookDate = bookDate;
+		this.bookPublisher = bookPublisher;
+	}
+	
+	
+	
+}

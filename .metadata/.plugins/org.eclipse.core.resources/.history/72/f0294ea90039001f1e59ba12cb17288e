@@ -1,0 +1,31 @@
+package ch09_generic_collection.sec13;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+
+public class HashMapMainEx {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// 1.HashMap 클래스
+		Map<String,String> voca = new HashMap<String,String>();
+
+		//2.HashMap 인스턴스 객체 저장
+		voca.put("사과","apple");
+		voca.put("여름","summer");
+		voca.put("사탕","candy");
+		voca.put("학교","school");
+		voca.put("버스","bus");
+		voca.put("물","water");
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
